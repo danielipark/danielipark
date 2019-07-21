@@ -1,0 +1,109 @@
+/* Document */
+
+.lg-container {
+    max-width: 940px;
+}
+
+.md-container {
+    max-width: 420px;
+}
+
+.navbar-menu {
+    position: sticky;
+}
+
+.sm-spacing {
+    padding: 8px 0;
+}
+
+/* Bulma Overwrites */
+.columns {
+    margin: 0;
+}
+
+.button {
+    border-radius: 0;
+    border-width: 2px;
+    margin-top: 32px;
+}
+
+.container {
+    width: 100%;
+}
+
+.hero-body, #project .column, header > p, h3 {
+    padding: 2rem 0 1rem 0;
+}
+
+.navbar-menu {
+    padding: 1rem 0;
+}
+
+.navbar-end > a > h2 {
+    padding: 0 1rem;
+}
+
+#project .hero.is-fullheight .hero-body {
+    align-items: unset;
+}
+
+/* temp */
+
+img {
+    height: 100%;
+}
+
+.landing {
+    max-height: 550px;
+    width: 100%;
+}
+
+.column.right-case-study, .column.left-case-study {
+    height: 75vh;
+}
+
+.column.left-case-study {
+    background-color: rgba(77, 187, 153, 0.32);
+}
+
+.column.right-case-study {
+    background-color: rgba(77, 187, 153, 0.65);
+}
+
+#second .column.right-case-study {
+    background-color: rgba(6, 53, 105, 0.65);
+}
+
+#second .column.left-case-study {
+    background-color: rgba(6, 53, 105, 0.32);
+}
+
+#third .column.left-case-study {
+    background-color: rgba(241, 35, 169, 0.32);
+}
+
+#third .column.right-case-study {
+    background-color: rgba(241, 35, 169, 0.65);
+}
+
+#fourth .column.left-case-study {
+    background-color: rgba(33, 32, 33, 0.32);
+}
+
+#fourth .column.right-case-study {
+    background-color: rgba(33, 32, 33, 0.65);
+}
+
+.columns:last-child {
+    margin-bottom: 0;
+}
+
+/* Links */
+
+a:link, a:visited {
+    color: black;
+}
+
+a:hover, a:active {
+    color: grey;
+}
