@@ -58,7 +58,8 @@ iframe {
 }
 
 img {
-    height: 100%;
+    max-width: 100%;
+    height: auto;
 }
 
 .landing {
@@ -129,6 +130,8 @@ img {
 .navbar-end > a > h2:hover {
     color: #303133;
 }
+
+/* Animations */
 
 .item-1, 
 .item-2, 
