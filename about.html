@@ -35,15 +35,15 @@
           <h2>work</h2>
           </a> <a href="about.html">
           <h2>about</h2>
-          </a> <a href="https://www.linkedin.com/in/daniel-i-park-097007122/"><i class="fab fa-linkedin-in fa-lg"></i></a> <a href="https://www.instagram.com/danielipark/"><i class="fab fa-instagram fa-lg"></i></a> <a href="mailto:ihseukpark@gmail.com" target="_top"><i class="far fa-envelope fa-lg"></i></a> </div>
+          </a> <a href="https://www.linkedin.com/in/daniel-i-park-097007122/"><i class="fab fa-linkedin-in fa-lg"></i></a><a href="mailto:ihseukpark@gmail.com" target="_top"><i class="far fa-envelope fa-lg"></i></a> </div>
       </div>
 
         <section class="hero is-fullheight">
           <div class="hero-body">
             <div class="container lg-container">
               <div class="columns">
-                <div class="column is-two-fifths">
-                  <img src="about/profile.jpg" style="border-radius: 50%; height: 250px; width: 250px;"/>
+                <div class="column is-two-fifths has-vertically-aligned-content">
+                  <img src="about/profile.jpg" style="max-width: 95%; max-height: 95%; border-radius: 50%"/>
                 </div>
                 <div class="column is-three-fifths">
                   <h1 class="is-size-2 has-text-bold">Hello</h1>
@@ -66,20 +66,9 @@
                 </div>
               </div>
               <div class="columns">
-                  <div class="column is-two-fifths">
+                  <div class="column">
                     <h1 class="is-size-4 has-text-bold">You can find me...</h1>
-                    <p class="item-1">
-                      Perfecting my jumpshot
-                    </p>
-                    <p class="item-2">
-                      Singing my heart out in the shower
-                    </p>
-                    <p class="item-3">
-                      Playing endless boardgames...specifically Avalon
-                    </p>
-                    <p class="item-4">
-                      Meal prepping chicken breast and brocoli...sigh
-                    </p>
+					 <h1 class="is-size-xl ghosttype">Perfecting my jumpshot</h1>
                   </div>
 
                 </div>
@@ -88,8 +77,15 @@
         </section>
       </div>
     </div>
-    <script>
+	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script> 
+<script src="menu.js"></script>
+	    <script>
       AOS.init();
+		var typed = new Typed(".ghosttype", {
+  // Waits 1000ms after typing "First"
+  strings: ["Singing my heart out in the shower.^250", "Playing endless boardgames...specifically Avalon.^250", "Meal prepping chicken breast and brocoli...sigh."], typeSpeed: 50, startDelay: 2500, showCursor: false, backSpeed: 50, backDelay: 5000, loop: true
+});
     </script>
   </body>
 </html>

@@ -19,6 +19,15 @@
     padding: 1.75rem 0 ;
 }
 
+.lg-spacing-top {
+	padding: 2rem 0 0 0;
+}
+
+/* Typography */
+.is-size-xl {
+	font-size: 2rem;
+}
+
 /* Bulma Overwrites */
 .columns {
     margin: 0;
@@ -51,7 +60,7 @@
     align-items: unset;
 }
 
-/* temp */
+/* temp - clean this up after */
 
 iframe {
     height: 500px
@@ -129,6 +138,11 @@ img {
 
 .navbar-end > a > h2:hover {
     color: #303133;
+}
+
+
+svg>path:hover {
+	color: #000; /* fix this to the actual link box */
 }
 
 /* "Fun" Image Grid */
