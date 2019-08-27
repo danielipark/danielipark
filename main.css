@@ -63,7 +63,9 @@
 /* temp - clean this up after */
 
 iframe {
-    height: 500px
+
+	height: 100%;
+	width: 100%;
 }
 
 img {
@@ -95,11 +97,13 @@ img {
 }
 
 .column.left-case-study {
-    background-color: #dcf0e0;
+    background-color: #CDEEE2;
 }
 
 .column.right-case-study {
-    background-color: #51b467;
+    background-color: #6ab89b
+
+;
 }
 
 #second .column.right-case-study {
@@ -111,11 +115,11 @@ img {
 }
 
 #third .column.left-case-study {
-    background-color: #fcedee;
+    background-color: #EFA2CC;
 }
 
 #third .column.right-case-study {
-    background-color: #ea5455;
+    background-color: #D14D95;
 }
 
 #fourth .column.left-case-study {
