@@ -28,6 +28,14 @@
 	font-size: 2rem;
 }
 
+.takeaways{
+	padding-top: 10rem;	
+}
+
+.iphone-takeaways {
+	padding-top: 20rem;
+}
+
 /* Bulma Overwrites */
 .columns {
     margin: 0;
