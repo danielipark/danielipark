@@ -49,30 +49,12 @@
 				      <div class="macy-container">
         <div class="macy-item"> <img src="fun/photo1.png"> </div>
         <div class="macy-item"> <img src="fun/photo2.png"> </div>
-        <div class="macy-item">
-            <div class="showGalleryFromArray">
-                <a href="fun/photo3.png" title="Caption for gallery item 1"><img src="fun/photo3.png" alt="Gallery image 1" /></a>
-                <a href="fun/photo4.png" title="Caption for gallery item 2"><img src="fun/photo4.png" alt="Gallery image 2" /></a>
-                <a href="fun/photo5.png" title="Caption for gallery item 3"><img src="fun/photo5.png" alt="Gallery image 3" /></a>
-            </div>
-        </div>
-        <div class="macy-item"> <img src="fun/photo4.png"> </div>
-        <div class="macy-item"> <img src="fun/photo5.png"> </div>
+		<div class="macy-item"> <img src="fun/photo3.png"> </div>
         <div class="macy-item"> <img src="fun/photo6.png"> </div>
-        <div class="macy-item"> <img src="fun/photo7.png"> </div>
-        <div class="macy-item"> <img src="fun/photo8.png"> </div>
         <div class="macy-item"> <img src="fun/photo9.png"> </div>
-        <div class="macy-item"> <img src="fun/photo10.png"> </div>
-        <div class="macy-item"> <img src="fun/photo11.png"> </div>
-        <div class="macy-item"> <img src="fun/photo12.png"> </div>
         <div class="macy-item"> <img src="fun/photo13.png"> </div>
-        <div class="macy-item"> <img src="fun/photo14.png"> </div>
-        <div class="macy-item"> <img src="fun/photo15.png"> </div>
-        <div class="macy-item"> <img src="fun/photo16.png"> </div>
-        <div class="macy-item"> <img src="fun/photo17.png"> </div>
-        <div class="macy-item"> <img src="fun/photo18.png"> </div>
-        <div class="macy-item"> <img src="fun/photo19.png"> </div>
-        <div class="macy-item"> <img src="fun/photo20.png"> </div>
+		<div class="macy-item"> <img src="fun/photo19.jpg"></div>
+		<div class="macy-item"> <img src="fun/photo20.jpg"></div>
       </div>
         </div>
       </div>
@@ -81,7 +63,7 @@
       </div>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script> 
 <script src="https://cdn.jsdelivr.net/npm/macy@2.5.0/dist/macy.min.js"></script> 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/1.17.2/simple-lightbox.min.js"></script> 
+<script src="https://cdn.jsdelivr.net/npm/simple-lightbox@2.1.0/src/simpleLightbox.min.js"></script>
 <script>
         AOS.init();
 	var macy = Macy({
@@ -89,7 +71,7 @@
     trueOrder: false,
     waitForImages: false,
     margin: 24,
-    columns: 6,
+    columns: 2,
     breakAt: {
         1200: 5,
         940: 3,
@@ -97,10 +79,13 @@
         400: 1
     }
 });
-$('.showGalleryFromArray').on('click', function() {
-    SimpleLightBox.open({
-        items: ['fun/photo4.png', 'fun/photo5.png']});
+    $('.showGalleryFromArray').on('click', function() {
+        SimpleLightbox.open({
+            items: ['fun/photo3.png', 'fun/photo4.png']
+        });
     });
+
+
     </script>
 </body>
 </html>
