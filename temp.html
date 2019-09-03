@@ -50,7 +50,7 @@
         <div class="macy-item"> <img src="fun/photo1.png"> </div>
         <div class="macy-item"> <img src="fun/photo2.png"> </div>
         <div class="macy-item">
-            <div class="imageGallery1">
+            <div class="showGalleryFromArray">
                 <a href="fun/photo3.png" title="Caption for gallery item 1"><img src="fun/photo3.png" alt="Gallery image 1" /></a>
                 <a href="fun/photo4.png" title="Caption for gallery item 2"><img src="fun/photo4.png" alt="Gallery image 2" /></a>
                 <a href="fun/photo5.png" title="Caption for gallery item 3"><img src="fun/photo5.png" alt="Gallery image 3" /></a>
@@ -97,8 +97,10 @@
         400: 1
     }
 });
-// using plain js
-new SimpleLightbox({elements: '.imageGallery1 a'});
+$('.showGalleryFromArray').on('click', function() {
+    SimpleLightBox.open({
+        items: ['fun/photo4.png', 'fun/photo5.png']});
+    });
     </script>
 </body>
 </html>
