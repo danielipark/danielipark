@@ -271,7 +271,7 @@ svg>path:hover {
         z-index: 100;
         width: 250px;
     }
-    .container {
+    body {
         overflow-x: hidden;
     }    
 }
