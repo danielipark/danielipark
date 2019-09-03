@@ -30,8 +30,7 @@
 	font-size: 2rem;
 }
 
-.takeaways{
-	padding-top: 10rem;	
+.takeaways{	
 }
 
 .iphone-takeaways {
@@ -272,4 +271,7 @@ svg>path:hover {
         z-index: 100;
         width: 250px;
     }
+    .container {
+        overflow-x: hidden;
+    }    
 }
