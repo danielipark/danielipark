@@ -56,6 +56,7 @@ Add this into CSS to change font color
 }
 
 /* Bulma Overrides */
+
 .hero-body {
     flex-wrap: wrap;
     padding: 3rem 0 0 0
