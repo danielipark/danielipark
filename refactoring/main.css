@@ -1,0 +1,122 @@
+/* Custom Helpers */
+.sm-padding {
+    padding: 1rem;
+}
+.md-padding {
+    padding: 2rem;
+}
+.lg-padding {
+    padding: 3rem;
+}
+.sm-spacing {
+    padding: 1rem 0 1rem 0;
+}
+.md-spacing {
+    padding: 2rem 0 2rem 0;
+}
+.lg-spacing {
+    padding: 3rem 0 3rem 0;
+}
+.sm-spacing-top {
+    padding-top: 1rem;
+}
+.md-spacing-top {
+    padding-top: 2rem;
+}
+.lg-spacing-top {
+    padding-top: 3rem;
+}
+.full-width {
+    left: 50%;
+	margin-left: -50vw;
+	margin-right: -50vw;
+	max-width: 100vw;
+	position: relative;
+	right: 50%;
+	width: 100vw;
+}
+
+/* Bulma Overrides */
+.hero-body {
+    flex-wrap: wrap;
+    padding: 3rem 0 0 0
+}
+.flex-wrap {
+    flex: 0 0 100%;
+}
+.button {
+    border-color: transparent;
+}
+img {
+    max-height: 100%;
+}
+.columns {
+    margin: 0;
+}
+iframe {
+    width: 100%;
+    height: 900px;
+}
+
+/* Links */
+a.navbar-item:hover, a.navbar-item.is-active:hover {
+    background-color: unset;
+    color: #3273dc;
+}
+
+/* [4.1] Landing Section */
+#landing-section {
+    padding: 22rem 0;
+}
+
+/* [4.2] Projects */
+.project {
+    height: 640px;
+}
+
+.columns {
+    height: 100%;
+}
+
+#project-1 .left-side {
+    background-color: #CDEEE2;
+}
+#project-1 .right-side {
+    background-color: #6ab89b;
+}
+#project-2 .left-side {
+    background-color: #5a97c4;
+}
+#project-2 .right-side {
+    background-color: #eaf2f8;
+}
+#project-3 .left-side {
+    background-color: #EFA2CC;
+}
+#project-3 .right-side {
+    background-color: #D14D95;
+}
+#project-4 .left-side {
+    background-color: #636e72;
+}
+#project-4 .right-side {
+    background-color: #e6ebed;
+}
+
+
+
+.is-vertical-align {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Custom Media Query - Mobile Devices */
+@media only screen and (max-width: 768px) {
+    .project {
+        height: unset;
+    }
+    h1,h2,h3,h4,h5,h6,p {
+        padding: 0.5rem;
+    }
+}
