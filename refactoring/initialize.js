@@ -4,6 +4,9 @@ AOS.init(
     }
   );
 
-var typed = new Typed(".ghosttype", {
-  strings: ["Perfecting my jumpshot.^250", "Singing my heart out in the shower.^250", "Playing endless boardgames...specifically Avalon.^250", "Meal prepping chicken breast and broccoli...sigh."], typeSpeed: 50, startDelay: 2500, showCursor: false, backSpeed: 50, backDelay: 5000, loop: true
+$(".navbar-burger").click(function() {
+  // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+  $(".navbar-burger").toggleClass("is-active");
+  $(".navbar-end").toggleClass("has-text-centered");
+  $(".navbar-menu").toggleClass("is-active is-flex is-vertical-align");
 });

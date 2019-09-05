@@ -1,3 +1,17 @@
+/* Font Color 
+
+Add this into CSS to change font color
+(P.S this changes all typography to [color])
+
+.title, .subtitle, p {
+    color: rgb(121, 121, 121);
+}
+*/
+
+.title, .subtitle, p {
+    color: rgb(121, 121, 121);
+}
+
 /* Custom Helpers */
 .sm-padding {
     padding: 1rem;
@@ -34,6 +48,11 @@
 	position: relative;
 	right: 50%;
 	width: 100vw;
+}
+.is-vertical-align {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 /* Bulma Overrides */
@@ -103,20 +122,22 @@ a.navbar-item:hover, a.navbar-item.is-active:hover {
     background-color: #e6ebed;
 }
 
-
-
-.is-vertical-align {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
 /* Custom Media Query - Mobile Devices */
 @media only screen and (max-width: 768px) {
     .project {
         height: unset;
     }
-    h1,h2,h3,h4,h5,h6,p {
-        padding: 0.5rem;
+    h1,h2,h3,h4,h5,h6,p,ul {
+        padding: 0.75rem;
+    }
+    .navbar-burger {
+        z-index: 1;
+    }
+    #navbarMenuHeroA {
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        overflow: hidden;
+        position:fixed;
     }
 }
