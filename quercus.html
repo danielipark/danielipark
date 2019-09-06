@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<!-- [1] Page title and favicon -->
+<title>Querucs</title>
+<link rel="shortcut icon" type="image/png" href="logo.png">
+
+<!-- [2] Stylesheets -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover.css"/>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+<link rel="stylesheet" href="main.css"/>
+</head>
+<body>
+<div class="hero has-background-light"> 
+  <!-- [3] Menu Bar -->
+  <div class="hero-head">
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-brand"> <a class="navbar-item" href="index.html"> <img src="logo.png" alt="Logo"> </a> <span class="navbar-burger burger" data-target="navbarMenuHeroA"> <span></span> <span></span> <span></span> </span> </div>
+        <!-- [3.1] Menu Items -->
+        <div id="navbarMenuHeroA" class="navbar-menu">
+          <div class="navbar-end"> <a class="navbar-item is-active" href="index.html"> work </a> <a class="navbar-item" href="about.html"> about </a> <a href="https://www.linkedin.com/in/daniel-i-park-097007122/" class="navbar-item"> <span class="icon"> <i class="fab fa-linkedin-in fa-lg"></i> </span> </a> <a href="mailto:ihseukpark@gmail.com" target="_top" class="navbar-item"> <span class="icon"> <i class="far fa-envelope fa-lg"></i> </span> </a> </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!-- [6] Project Page Content-->
+  <div class="hero-body">
+    <div class="container"> 
+      <!-- [6.1] Project Brief -->
+      <header>
+        <div class="md-spacing"> 
+          <!-- [6.1a] Project Title and Caption-->
+          <h1 class="title is-1 has-text-weight-bold">Quercus</h1>
+          <h2 class="subtitle is-4">Information Design</h2>
+          <!-- [6.1b] Project Description -->
+          <p class="subtitle is-5">Quercus is the official Learning Management System for University of Toronto students. We wanted to redesign this platform to tackle two key problems. Firstly, students were not well aware of the Quercus <em>calendar </em>function due to a poor interface design and personal preferences. Secondly the Quercus <em>inbox </em>was not integrated with UTORmail, despite it being the number one platform choice for students communicating with their professors/TAs. </p>
+          <p class="subtitle is-5">Our new design focuses on improving these functionalities by increasing the usefulness and efficiency of these tools. Various prototypes were tested by numerous participants and ultimately we were able to come to a final design.</p>
+          <!-- [6.1c] Project Facts -->
+          <div class="columns">
+            <div class="column is-one-third sm-spacing">
+              <ul class="has-text-weight-bold">
+                <li>Roles</li>
+                <li>Team Members</li>
+                <li>Timeframes</li>
+                <li>Category</li>
+                <li>Tools</li>
+              </ul>
+            </div>
+            <div class="column is-two-thirds sm-spacing">
+              <ul>
+                <li>Researcher / UX Designer / User Test Facilitator</li>
+                <li><a href="https://www.linkedin.com/in/michael-chan-6a24bb153/">Michael Chan</a> / <a href="https://www.linkedin.com/in/anusha-champaneria/">Anusha Champaneria</a> / <a href="https://www.linkedin.com/in/kulsoom-w-92999815b/">Kulsoom Waqar</a></li>
+                <li>Four Months</li>
+                <li>UX / UI / Information Design</li>
+                <li>Balsamiq / InVision / Adobe XD / Illustrator / Photoshop</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- [6.2] Project Problem -->
+      <section class="md-spacing">
+        <div>
+          <h1 class="title is-2 has-text-weight-bold">The Problem</h1>
+          <p class="is-size-4">The calendar and inbox functionalities of the Quercus system, are not optimized for student use.</p>
+        </div>
+        <div class="columns">
+          <div class="column has-text-centered md-spacing"> <img src="resources/images/quercus/photo1.png" style="max-height: 40%; max-width: 40%"> </div>
+        </div>
+      </section>
+      <!-- [6.3] Project Research -->
+      <section class="md-spacing">
+        <h1 class="title is-2 has-text-weight-bold">Research</h1>
+        <h2 class="title is-4">Preliminary Observations</h2>
+        <p class="subtitle is-5">My group and I conducted over ten interviews with current UofT students, instructors, and administrators about their thoughts on the Quercus platform.</p>
+        <br>
+        <h2 class="title is-4">Direct Quotes</h2>
+        <p class="is-size-6">&ldquo;The Inbox feature on Quercus is quite confusing. I have always used UTORmail to contact my professors and peers. Now that I have an additional method of communication, I don’t know which platform to use. I wish <strong>UTORmail was directly integrated into Quercus</strong>.&rdquo;</p>
+        <br>
+        <p class="is-size-6"> &ldquo;I don’t use the Inbox feature at all. I find it useless, as most of my professors want me to contact them through UTORmail, using OutLook. &rdquo; </p>
+        <br>
+        <p class="is-size-6"> &ldquo;Some of my professors use the Quercus Inbox and some use the UTORmail inbox. It <strong>frustrates me to constantly check both platforms</strong>.&rdquo;</p>
+        <div class="columns is-vcentered">
+          <div class="column"><img src="resources/images/quercus/preliminary2.png" style="max-height: 100%; max-width: 100"></div>
+        </div>
+        <p class="is-size-6">&ldquo;The Calendar function has so much potential to be a useful feature. However, the Calendar is <strong>not up-to-date</strong>. Most of my assignment deadlines are not posted in the Calendar, hence why I manually input them in my personal agenda.&rdquo;</p>
+        <br>
+        <p class="is-size-6"> &ldquo;I cannot rely on the Calendar to check my project deadlines. <strong>Deadlines are subject to change in each course</strong> and they are not updated to the Calendar. Currently, I am using my Calendar on my MacBook to input these dates.&rdquo; </p>
+        <br>
+        <p class="is-size-6"> &ldquo;If the Quercus Calendar had an option to <strong>sync my Google Calendar</strong>, I would definitely use it more.&rdquo;</p>
+        <div class="columns is-vcentered">
+          <div class="column"><img src="resources/images/quercus/preliminary3.png" style="max-height: 100%; max-width: 100"></div>
+        </div>
+      </section>
+      <!-- [6.6] Project Testing-->
+      <section class="md-spacing">
+        <h1 class="title is-2 has-text-weight-bold">Pilot Testing</h1>
+        <p class="subtitle is-5"> Usability tests took place in CC3160 in the Communication, Culture &amp; Technology building At the University of Toronto Mississauga.</p>
+        <br>
+        <h2 class="title is-4">Task 1</h2>
+        <p class="subtitle is-5"> Usability tests took place in CC3160 in the Communication, Culture &amp; Technology building At the University of Toronto Mississauga.</p>
+        <br>
+        <div class="columns is-vcentered">
+          <div class="column"><img src="resources/images/quercus/email_userflow.png" style="max-height: 100%; max-width: 100"></div>
+        </div>
+        <h2 class="title is-4">Task 2</h2>
+        <p class="subtitle is-5"> Usability tests took place in CC3160 in the Communication, Culture &amp; Technology building At the University of Toronto Mississauga.</p>
+        <div class="columns is-vcentered">
+          <div class="column"><img src="resources/images/quercus/calendar_userflow.png" style="max-height: 100%; max-width: 100"></div>
+        </div>
+      </section>
+      <!-- [6.5] Project Process -->
+      <section class="md-spacing">
+        <h1 class="title is-2 has-text-weight-bold">Breaking Down the Process</h1>
+        <h2 class="subtitle is-4">The next step was to put the knowledge from research in motion to define the system's functions, user flows and design the prototype.</h2>
+        <p class="is-size-5 has-text-weight-bold">Quercus Inbox Functions</p>
+        <ul>
+          <li>Communicate to professors, classmates, and peers</li>
+          <li>UTORmail integration</li>
+          <li>Automated contact information</li>
+        </ul>
+        <br>
+        <p class="is-size-5 has-text-weight-bold">Quercus Calendar Functions</p>
+        <ul>
+          <li>Input various different tasks</li>
+          <li>Up-to-date assignment/project deadlines</li>
+          <li>Google calendar and ICal sync option</li>
+          <li>View long-term goals</li>
+        </ul>
+      </section>
+      <!-- [6.7a] Project Prototypes -->
+      <section class="md-spacing">
+        <h1 class="title is-2 has-text-weight-bold">First Prototype</h1>
+        <h2 class="is-size-4">User Testing Takeaways</h2>
+        <div class="columns is-vcentered">
+          <div class="column"><img src="resources/images/quercus/prototype1.png" style="max-height: 100%; max-width: 100"></div>
+        </div>
+        <div class="columns is-vcentered">
+          <div class="column"><img src="resources/images/quercus/prototype1b.png" style="max-height: 100%; max-width: 100"></div>
+        </div>
+      </section>
+      <!-- [6.7b] Project Prototypes -->
+      <section class="md-spacing">
+        <h1 class="title is-2 has-text-weight-bold">Second Prototype</h1>
+        <h2 class="is-size-4">User Testing Takeaways</h2>
+		 <img src="resources/images/quercus/prototype2.gif">
+        <img src="resources/images/quercus/prototype2b.gif">
+      </section>
+      <!-- [6.7c] Project Prototypes -->
+      <section class="md-spacing">
+        <h1 class="title is-2 has-text-weight-bold">Final Prototype</h1>
+		  <iframe width="560" height="315" src="https://www.youtube.com/embed/QY03JpuqnKc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		  <iframe width="923" height="659" src="https://www.youtube.com/embed/3HFLbZEhjqc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+      </section>
+      <!-- [6.8] Project Conclusion -->
+      <section class="md-spacing">
+        <h1 class="title is-2 has-text-weight-bold">Conclusion</h1>
+        <p class="subtitle is-5">The Kloudy team sought to create a product that fit the needs of users looking to cut their nicotine consumption using non-cigarette alternatives. By identifying the demands of the product target market as well as conducting a slew usability evaluations, the team was able to consistently re-iterate and implement more effective design functions, ultimately leading to the release of the final Kloudy Vape and Accountability application. </p>
+      </section>
+    </div>
+  </div>
+</div>
+<!-- [7] Scripts --> 
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script> 
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script> 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script> 
+<script src="initialize.js"></script>
+</body>
+</html>
