@@ -177,6 +177,12 @@ a.navbar-item:hover, a.navbar-item.is-active:hover, .navbar-burger:hover {
     height: 100%;
 }
 
+#project-0 .left-side {
+    background-color: #db5d5b;
+}
+#project-0 .right-side {
+    background-color: #faeeee;
+}
 #project-1 .left-side {
     background-color: #CDEEE2;
 }

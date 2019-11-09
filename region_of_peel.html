@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<!-- [1] Page title and favicon -->
+<title>Kloudy</title>
+<link rel="shortcut icon" type="image/png" href="logo.png">
+
+<!-- [2] Stylesheets -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover.css"/>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+<link rel="stylesheet" href="main.css"/>
+</head>
+<body>
+<div class="hero has-background-light"> 
+  <!-- [3] Menu Bar -->
+  <div class="hero-head">
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-brand"> <a class="navbar-item" href="index.html"> <img src="logo.png" alt="Logo"> </a> <span class="navbar-burger burger" data-target="navbarMenuHeroA"> <span></span> <span></span> <span></span> </span> </div>
+        <!-- [3.1] Menu Items -->
+        <div id="navbarMenuHeroA" class="navbar-menu">
+          <div class="navbar-end"> <a class="navbar-item is-active" href="index.html"> work </a> <a class="navbar-item" href="about.html"> about </a> <a href="https://www.linkedin.com/in/daniel-i-park-097007122/" class="navbar-item"> <span class="icon"> <i class="fab fa-linkedin-in fa-lg"></i> </span> </a> <a href="mailto:ihseukpark@gmail.com" target="_top" class="navbar-item"> <span class="icon"> <i class="far fa-envelope fa-lg"></i> </span> </a> </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!-- [6] Project Page Content-->
+  <div class="hero-body">
+    <div class="container"> 
+      <!-- [6.1] Project Brief -->
+      <header>
+        <div class="md-spacing"> 
+          <!-- [6.1a] Project Title and Caption-->
+          <h1 class="title is-1 has-text-weight-bold">Region of Peel</h1>
+          <h2 class="subtitle is-4">User Interface Design</h2>
+          <img class ="full-width md-spacing-top" src="resources/images/region_of_peel/banner.png">
+          <div class="md-spacing">
+			  <h1 class="title is-2 has-text-weight-bold"><center>Coming Soon!</center></h1>
+			</div>
+      <!-- [7] Other Projects -->
+      <div class="hero-footer">
+        <h3 class="is-size-5 has-text-weight-bold has-text-centered lg-spacing-top"> View Other Projects </h3>
+        <nav class="level md-spacing">
+          <div class="level-item has-text-centered">
+            <div> <a href="region_of_peel.html">
+              <figure class="image is-128x128"> <img src="resources/images/region_of_peel/logo.png"></figure>
+              <p class="has-text-weight-bold">Region of Peel</p>
+              </a> </div>
+          </div>
+          <div class="level-item has-text-centered">
+            <div> <a href="kloudy.html">
+              <figure class="image is-128x128"> <img src="resources/images/kloudy/logo.png"> </figure>
+              <p>Kloudy</p>
+              </a> </div>
+          </div>
+          <div class="level-item has-text-centered">
+            <div> <a href="quercus.html">
+              <figure class="image is-128x128"> <img src="resources/images/quercus/logo.png"> </figure>
+              <p>Quercus</p>
+              </a> </div>
+          </div>
+          <div class="level-item has-text-centered">
+            <div> <a href="creative_case_competition.html">
+              <figure class="image is-128x128 is-vertical-align"> <img src="resources/images/creative_case_competition/logo.png"> </figure>
+              <p>Creative Case</p>
+              </a> </div>
+          </div>
+          <div class="level-item has-text-centered">
+            <div> <a href="https://www.instagram.com/danielpark.co/">
+              <figure class="image is-128x128"> <img src="resources/images/fun/logo.png"> </figure>
+              <p>Fun</p>
+              </a> </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- [8] Scripts --> 
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script> 
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script> 
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script> 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script> 
+<script src="initialize.js"></script>
+</body>
+</html>
