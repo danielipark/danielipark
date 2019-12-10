@@ -1,164 +1,127 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics --> 
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-154360234-1"></script> 
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-        <!-- [1] Page title and favicon -->
-        <title>Daniel Park</title>
-        <link rel="shortcut icon" type="image/png" href="logo.png">
+  gtag('config', 'UA-154360234-1');
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 
+<!-- [1] Page title and favicon -->
+<title>Daniel Park</title>
+<link rel="shortcut icon" type="image/png" href="logo.png">
 
-        <!-- [2] Stylesheets -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css"/>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover.css"/>
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
-        <link rel="stylesheet" href="main.css"/>
-    </head>
-    <body>
-        <div class="hero has-background-light">
-            <!-- [3] Menu Bar -->
-            <div class="hero-head">
-                <nav class="navbar">
-                    <div class="container">
-                        <div class="navbar-brand">
-                            <a class="navbar-item">
-                                <img src="logo.png" alt="Logo">
-                            </a>
-                            <span class="navbar-burger burger" data-target="navbarMenuHeroA">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </span>
-                        </div>
-                        <!-- [3.1] Menu Items -->
-                        <div id="navbarMenuHeroA" class="navbar-menu">
-                            <div class="navbar-end">
-                                <a class="navbar-item is-active" href="index.html">
-                                work
-                                </a>
-                                <a class="navbar-item" href="about.html">
-                                about
-                                </a>
-                                <a href="https://www.linkedin.com/in/daniel-i-park-097007122/" class="navbar-item">
-                                    <span class="icon">
-                                        <i class="fab fa-linkedin-in fa-lg"></i>
-                                    </span>
-                                </a>
-                                <a href="mailto:ihseukpark@gmail.com" target="_top" class="navbar-item">
-                                    <span class="icon">
-                                        <i class="far fa-envelope fa-lg"></i>
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </nav>
-            </div>
-            <!-- [4] Home Page Content -->
-            <div class="hero-body">
-                <!-- [4.1] Landing Section -->
-                <div id="landing-section" class="flex-wrap">
-                    <div class="container">
-                        <h1 class="title is-1 has-text-weight-bold" data-aos="fade-in" data-aos-delay="300">
-                            Daniel Park
-                        </h1>
-                        <h2 class="subtitle is-3" data-aos="fade-in" data-aos-delay="800">
-                            UX/UI Designer
-                        </h2>
-                    </div>
-                </div>
-				<!-- [4.2a] Project 1-->
-                <div id="project-0" class="flex-wrap project">
-                    <div class="columns">
-                        <div class="column is-vertical-align is-one-third left-side"> 
-                            <img src="resources/images/region_of_peel/logo.png" data-aos="fade-right"/> 
-                        </div>
-                        <div class="column is-vertical-align is-two-thirds right-side has-text-right">
-                            <div data-aos="fade-left" class="lg-padding">
-                                <h1 class="subtitle is-5">UI</h1>
-                                <h2 class="title is-2 has-text-weight-bold" style="color: #db5c5b">Region of Peel</h2>
-                                <h3 class="subtitle is-5">Designing a more accessible site for over 1.4 million citizens.</h3>
-                                <a href="region_of_peel.html" class="button is-rounded is-size-5 hvr-shadow" style="background-color: #db5c5b; color: #faeeee">View Case Study</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- [4.2b] Project 2-->
-                <div id="project-1" class="flex-wrap project">
-                    <div class="columns">
-                        <div class="column is-vertical-align is-two-thirds left-side ">
-                            <div data-aos="fade-right" class="lg-padding">
-                                <h1 class="subtitle is-5">UX / UI</h1>
-                                <h2 class="title is-2 has-text-weight-bold" style="color: #6ab89b">Kloudy</h2>
-                                <h3 class="subtitle is-size-5">Helping smokers quit their habit through the use of accountability and technology.</h3>
-                                <a href="kloudy.html" class="button is-rounded is-size-5 hvr-shadow" style="background-color: #6ab89b; color: #dcf0e0">View Case Study</a> 
-                            </div>
-                        </div>
-                        <div class="column is-vertical-align is-one-third right-side"> 
-                            <img src="resources/images/kloudy/logo.png" data-aos="fade-left"/> 
-                        </div>
-                    </div>
-                </div>
-                <!-- [4.2c] Project 3-->
-                <div id="project-2" class="flex-wrap project">
-                        <div class="columns">
-                            <div class="column is-vertical-align is-one-third left-side"> 
-                                <img src="resources/images/quercus/logo.png" data-aos="fade-right"/> 
-                            </div>
-                            <div class="column is-vertical-align is-two-thirds right-side has-text-right">
-                                <div data-aos="fade-left" class="lg-padding">
-                                    <h1 class="subtitle is-5">UX / UI</h1>
-                                    <h2 class="title is-2 has-text-weight-bold" style="color: #5a97c4">Quercus</h2>
-                                    <h3 class="subtitle is-5">Improving University of Toronto's Quercus' mailing and calendar functionalities.</h3>
-                                    <a href="quercus.html" class="button is-rounded is-size-5 hvr-shadow" style="background-color: #5a97c4; color: #eaf2f8">View Case Study</a>
-                                </div>
-                            </div>
-                        </div>
-                </div>
-                <!-- [4.2d] Project 4-->
-                <div id="project-3" class="flex-wrap project">
-                    <div class="columns">
-                        <div class="column is-vertical-align is-two-thirds left-side">
-                            <div data-aos="fade-right" class="lg-padding">
-                                <h1 class="subtitle is-5">Marketing, and Project Management</h1>
-                                <h2 class="title is-2 has-text-weight-bold" style="color: #D14D95">Creative Case Competition</h2>
-                                <h3 class="subtitle is-5">Creating University of Toronto's first Case Competition for creative students.</h3>
-                                <a href="creative_case_competition.html" class="button is-rounded is-size-5 hvr-shadow" style="background-color: #D14D95; color: #fcedee">View Case Study</a>
-                            </div>
-                        </div>
-                        <div class="column is-vertical-align is-one-third right-side"> 
-                            <img src="resources/images/creative_case_competition/logo.png" data-aos="fade-left"/> 
-                        </div>
-                    </div>
-                </div>
-                <!-- [4.4] Project 5-->
-                <div id="project-4" class="flex-wrap project">
-                    <div class="columns">
-                        <div class="column is-vertical-align is-one-third left-side"> 
-                            <img src="resources/images/fun/logo.png" data-aos="fade-right"/> 
-                        </div>
-                        <div class="column is-vertical-align is-two-thirds right-side has-text-right">
-                            <div data-aos="fade-left" class="lg-padding">
-                                <h1 class="subtitle is-5">Graphic Design, Videography, Photography</h1>
-                                <h2 class="title is-2 has-text-weight-bold" style="color: #636e72">Fun</h2>
-                                <h3 class="subtitle is-5">Miscellaneous designs I created for fun!</h3>
-                                <a href="https://www.instagram.com/danielpark.co/" class="button is-rounded is-size-5 hvr-shadow" style="background-color: #636e72; color: #e6ebed">View</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="hero-footer">
-                <div class="container has-text-centered sm-spacing">
-                    <h1 class="subtitle is-6">Made by <strong>Daniel Park</strong> 🍜</h1>
-                </div>
-            </div>
+<!-- [2] Stylesheets -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover.css"/>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+<link rel="stylesheet" href="main.css"/>
+</head>
+<body>
+<div class="hero has-background-light"> 
+  <!-- [3] Menu Bar -->
+  <div class="hero-head">
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-brand"> <a class="navbar-item"> <img src="logo.png" alt="Logo"> </a> <span class="navbar-burger burger" data-target="navbarMenuHeroA"> <span></span> <span></span> <span></span> </span> </div>
+        <!-- [3.1] Menu Items -->
+        <div id="navbarMenuHeroA" class="navbar-menu">
+          <div class="navbar-end"> <a class="navbar-item is-active" href="index.html"> work </a> <a class="navbar-item" href="about.html"> about </a> <a href="https://www.linkedin.com/in/daniel-i-park-097007122/" class="navbar-item"> <span class="icon"> <i class="fab fa-linkedin-in fa-lg"></i> </span> </a> <a href="mailto:ihseukpark@gmail.com" target="_top" class="navbar-item"> <span class="icon"> <i class="far fa-envelope fa-lg"></i> </span> </a> </div>
         </div>
+      </div>
+    </nav>
+  </div>
+  <!-- [4] Home Page Content -->
+  <div class="hero-body"> 
+    <!-- [4.1] Landing Section -->
+    <div id="landing-section" class="flex-wrap">
+      <div class="container">
+        <h1 class="title is-1 has-text-weight-bold" data-aos="fade-in" data-aos-delay="300"> Daniel Park </h1>
+        <h2 class="subtitle is-3" data-aos="fade-in" data-aos-delay="800"> UX/UI Designer </h2>
+      </div>
+    </div>
+    <!-- [4.2a] Project 1-->
+    <div id="project-0" class="flex-wrap project">
+      <div class="columns">
+        <div class="column is-vertical-align is-one-third left-side"> <img src="resources/images/region_of_peel/logo.png" data-aos="fade-right"/> </div>
+        <div class="column is-vertical-align is-two-thirds right-side has-text-right">
+          <div data-aos="fade-left" class="lg-padding">
+            <h1 class="subtitle is-5">UI</h1>
+            <h2 class="title is-2 has-text-weight-bold" style="color: #db5c5b">Region of Peel</h2>
+            <h3 class="subtitle is-5">Designing a more accessible site for over 1.4 million citizens.</h3>
+            <a href="region_of_peel.html" class="button is-rounded is-size-5 hvr-shadow" style="background-color: #db5c5b; color: #faeeee">View Case Study</a> </div>
+        </div>
+      </div>
+    </div>
+    <!-- [4.2b] Project 2-->
+    <div id="project-1" class="flex-wrap project">
+      <div class="columns">
+        <div class="column is-vertical-align is-two-thirds left-side ">
+          <div data-aos="fade-right" class="lg-padding">
+            <h1 class="subtitle is-5">UX / UI</h1>
+            <h2 class="title is-2 has-text-weight-bold" style="color: #6ab89b">Kloudy</h2>
+            <h3 class="subtitle is-size-5">Helping smokers quit their habit through the use of accountability and technology.</h3>
+            <a href="kloudy.html" class="button is-rounded is-size-5 hvr-shadow" style="background-color: #6ab89b; color: #dcf0e0">View Case Study</a> </div>
+        </div>
+        <div class="column is-vertical-align is-one-third right-side"> <img src="resources/images/kloudy/logo.png" data-aos="fade-left"/> </div>
+      </div>
+    </div>
+    <!-- [4.2c] Project 3-->
+    <div id="project-2" class="flex-wrap project">
+      <div class="columns">
+        <div class="column is-vertical-align is-one-third left-side"> <img src="resources/images/quercus/logo.png" data-aos="fade-right"/> </div>
+        <div class="column is-vertical-align is-two-thirds right-side has-text-right">
+          <div data-aos="fade-left" class="lg-padding">
+            <h1 class="subtitle is-5">UX / UI</h1>
+            <h2 class="title is-2 has-text-weight-bold" style="color: #5a97c4">Quercus</h2>
+            <h3 class="subtitle is-5">Improving University of Toronto's Quercus' mailing and calendar functionalities.</h3>
+            <a href="quercus.html" class="button is-rounded is-size-5 hvr-shadow" style="background-color: #5a97c4; color: #eaf2f8">View Case Study</a> </div>
+        </div>
+      </div>
+    </div>
+    <!-- [4.2d] Project 4-->
+    <div id="project-3" class="flex-wrap project">
+      <div class="columns">
+        <div class="column is-vertical-align is-two-thirds left-side">
+          <div data-aos="fade-right" class="lg-padding">
+            <h1 class="subtitle is-5">Marketing, and Project Management</h1>
+            <h2 class="title is-2 has-text-weight-bold" style="color: #D14D95">Creative Case Competition</h2>
+            <h3 class="subtitle is-5">Creating University of Toronto's first Case Competition for creative students.</h3>
+            <a href="creative_case_competition.html" class="button is-rounded is-size-5 hvr-shadow" style="background-color: #D14D95; color: #fcedee">View Case Study</a> </div>
+        </div>
+        <div class="column is-vertical-align is-one-third right-side"> <img src="resources/images/creative_case_competition/logo.png" data-aos="fade-left"/> </div>
+      </div>
+    </div>
+    <!-- [4.4] Project 5-->
+    <div id="project-4" class="flex-wrap project">
+      <div class="columns">
+        <div class="column is-vertical-align is-one-third left-side"> <img src="resources/images/fun/logo.png" data-aos="fade-right"/> </div>
+        <div class="column is-vertical-align is-two-thirds right-side has-text-right">
+          <div data-aos="fade-left" class="lg-padding">
+            <h1 class="subtitle is-5">Graphic Design, Videography, Photography</h1>
+            <h2 class="title is-2 has-text-weight-bold" style="color: #636e72">Fun</h2>
+            <h3 class="subtitle is-5">Miscellaneous designs I created for fun!</h3>
+            <a href="https://www.instagram.com/danielpark.co/" class="button is-rounded is-size-5 hvr-shadow" style="background-color: #636e72; color: #e6ebed">View</a> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="hero-footer">
+    <div class="container has-text-centered sm-spacing">
+      <h1 class="subtitle is-6">Made by <strong>Daniel Park</strong> 🍜</h1>
+    </div>
+  </div>
+</div>
 
-        <!-- [8] Scripts -->
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script> 
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-        <script src="initialize.js"></script>
-    </body>
+<!-- [8] Scripts --> 
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script> 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script> 
+<script src="initialize.js"></script>
+</body>
 </html>
