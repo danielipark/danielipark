@@ -8,7 +8,7 @@ Add this into CSS to change font color
 }
 */
 .title, .subtitle, p {
-    color: rgb(121, 121, 121);
+    color: black;
 }
 
 /* Custom Helpers */
@@ -55,6 +55,11 @@ Add this into CSS to change font color
 }
 
 /* Bulma Overrides */
+
+.hero-head {
+	padding-top: 20px;
+}
+
 .hero-body {
     flex-wrap: wrap;
     padding: 3rem 0 0 0
@@ -165,7 +170,7 @@ a.navbar-item:hover, a.navbar-item.is-active:hover, .navbar-burger:hover {
 
 /* [4.1] Landing Section */
 #landing-section {
-    padding: 15rem 0;
+    padding: 0rem 0;
 }
 
 /* [4.2] Projects */
@@ -175,6 +180,17 @@ a.navbar-item:hover, a.navbar-item.is-active:hover, .navbar-burger:hover {
 
 .columns {
     height: 100%;
+}
+
+#landing-section .landing-page-description h3 {
+	color: #808080;
+}
+
+#project-landing-page .left-side {
+    background-color: transparent;
+}
+#project-landing-page .right-side {
+    background-color: transparent;
 }
 
 #project-0 .left-side {
@@ -200,12 +216,6 @@ a.navbar-item:hover, a.navbar-item.is-active:hover, .navbar-burger:hover {
 }
 #project-3 .right-side {
     background-color: #D14D95;
-}
-#project-4 .left-side {
-    background-color: #636e72;
-}
-#project-4 .right-side {
-    background-color: #e6ebed;
 }
 
 /* Custom Media Query - Mobile Devices */
