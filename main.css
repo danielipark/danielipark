@@ -19,7 +19,7 @@ Add this into CSS to change font color
     padding: 2rem;
 }
 .lg-padding {
-    padding: 3rem;
+    padding: 4rem;
 }
 .sm-spacing {
     padding: 1rem 0 1rem 0;
@@ -156,7 +156,7 @@ iframe {
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px){
   .modal-content {
-    width: 100%;
+    width: 90%;
   }
 }
 
@@ -219,6 +219,11 @@ a.navbar-item:hover, a.navbar-item.is-active:hover, .navbar-burger:hover {
 
 /* Custom Media Query - Mobile Devices */
 @media only screen and (max-width: 768px) {
+	
+	.lg-padding {
+		padding: 3rem;
+	}
+	
     body {
         overflow-x: hidden;
     }
