@@ -67,9 +67,7 @@ Add this into CSS to change font color
 .flex-wrap {
     flex: 0 0 100%;
 }
-.button {
-    border-color: transparent;
-}
+
 img {
     max-height: 100%;
 }
@@ -213,7 +211,7 @@ a.navbar-item:hover, a.navbar-item.is-active:hover, .navbar-burger:hover {
     background-color: #eaf2f8;
 }
 #project-3 .left-side {
-    background-color: #EFA2CC;
+    background-color: #FFE3F2;
 }
 #project-3 .right-side {
     background-color: #D14D95;
@@ -243,7 +241,7 @@ a.navbar-item:hover, a.navbar-item.is-active:hover, .navbar-burger:hover {
     }
 }
 
- /*Scroll Animation*/
+ /*Scroll Animation
 .scroll-downs {
   position: absolute;
   top: 450px;
@@ -279,3 +277,4 @@ a.navbar-item:hover, a.navbar-item.is-active:hover, .navbar-burger:hover {
   10% { transform: translateY(0); opacity: 1; }
   100% { transform: translateY(15px); opacity: 0;}
 }
+*/
