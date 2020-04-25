@@ -1,176 +1,193 @@
 /* Font Color 
-
 Add this into CSS to change font color
 (P.S this changes all typography to [color])
-
 .title, .subtitle, p {
     color: rgb(121, 121, 121);
 }
 */
 .title, .subtitle, p {
-  color: black;
-}
-/* Custom Helpers */
-.sm-padding {
-  padding: 1rem;
-}
-.md-padding {
-  padding: 2rem;
-}
-.lg-padding {
-  padding: 4rem;
-}
-.sm-spacing {
-  padding: 1rem 0 1rem 0;
-}
-.md-spacing {
-  padding: 2rem 0 2rem 0;
-}
-.lg-spacing {
-  padding: 3rem 0 3rem 0;
-}
-.sm-spacing-top {
-  padding-top: 1rem;
-}
-.md-spacing-top {
-  padding-top: 2rem;
-}
-.lg-spacing-top {
-  padding-top: 3rem;
-}
-.full-width {
-  left: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
-  max-width: 100vw;
-  position: relative;
-  right: 50%;
-  width: 100vw;
-}
-.is-vertical-align {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-/* Bulma Overrides */
-.hero-head {
-  padding-top: 20px;
-}
-.hero-body {
-  flex-wrap: wrap;
-  padding: 3rem 0 0 0
-}
-.flex-wrap {
-  flex: 0 0 100%;
-}
-img {
-  max-height: 100%;
-}
-.columns {
-  margin: 0;
-}
-.columns:last-child {
-  margin-bottom: 0;
-}
-iframe {
-  width: 100%;
-  height: 1000px;
-}
-.container {
-  max-width: 1400px;
-}
-/* Links */
-a.navbar-item:hover, a.navbar-item.is-active:hover, .navbar-burger:hover {
-  background-color: unset;
-  color: #3273dc;
-}
-/* [4.1] Landing Section */
-#landing-section {
-  padding-top: 0rem;
-  padding-bottom: 0rem;
-}
-/* [4.2] Projects */
-.project {
-  height: 640px;
-}
-.columns {
-  height: 100%;
-}
-#landing-section .landing-page-description h3 {
-  color: #808080;
-}
-#project-landing-page .left-side {
-  background-color: transparent;
-}
-#project-landing-page .right-side {
-  background-color: transparent;
-}
-#project-0 .left-side {
-  background-color: #db5d5b;
-}
-#project-0 .right-side {
-  background-color: #faeeee;
-}
-#project-1 .left-side {
-  background-color: #CDEEE2;
-}
-#project-1 .right-side {
-  background-color: #6ab89b;
-}
-#project-2 .left-side {
-  background-color: #5a97c4;
-}
-#project-2 .right-side {
-  background-color: #eaf2f8;
-}
-#project-3 .left-side {
-  background-color: #FFE3F2;
-}
-#project-3 .right-side {
-  background-color: #D14D95;
+    color: black;
 }
 
+/* Custom Helpers */
+.sm-padding {
+    padding: 1rem;
+}
+.md-padding {
+    padding: 2rem;
+}
+.lg-padding {
+    padding: 4rem;
+}
+.sm-spacing {
+    padding: 1rem 0 1rem 0;
+}
+.md-spacing {
+    padding: 2rem 0 2rem 0;
+}
+.lg-spacing {
+    padding: 3rem 0 3rem 0;
+}
+.sm-spacing-top {
+    padding-top: 1rem;
+}
+.md-spacing-top {
+    padding-top: 2rem;
+}
+.lg-spacing-top {
+    padding-top: 3rem;
+}
+.full-width {
+    left: 50%;
+	margin-left: -50vw;
+	margin-right: -50vw;
+	max-width: 100vw;
+	position: relative;
+	right: 50%;
+	width: 100vw;
+}
+.is-vertical-align {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Bulma Overrides */
+
+.hero-head {
+	padding-top: 20px;
+}
+
+.hero-body {
+    flex-wrap: wrap;
+    padding: 3rem 0 0 0
+}
+
+.flex-wrap {
+    flex: 0 0 100%;
+}
+
+img {
+    max-height: 100%;
+}
+.columns {
+    margin: 0;
+}
+
+.columns:last-child {
+	margin-bottom: 0;
+} 
+
+iframe {
+    width: 100%;
+    height: 1000px;
+}
+.container {
+    max-width: 1400px;
+}
+
+/* Links */
+a.navbar-item:hover, a.navbar-item.is-active:hover, .navbar-burger:hover {
+    background-color: unset;
+    color: #3273dc;
+}
+
+/* [4.1] Landing Section */
+#landing-section {
+    padding-top: 0rem;
+	padding-bottom: 0rem;
+}
+
+/* [4.2] Projects */
+.project {
+    height: 640px;
+}
+
+.columns {
+    height: 100%;
+}
+
+#landing-section .landing-page-description h3 {
+	color: #808080;
+}
+
+#project-landing-page .left-side {
+    background-color: transparent;
+}
+#project-landing-page .right-side {
+    background-color: transparent;
+}
+
+#project-0 .left-side {
+    background-color: #db5d5b;
+}
+#project-0 .right-side {
+    background-color: #faeeee;
+}
+#project-1 .left-side {
+    background-color: #CDEEE2;
+}
+#project-1 .right-side {
+    background-color: #6ab89b;
+}
+#project-2 .left-side {
+    background-color: #5a97c4;
+}
+#project-2 .right-side {
+    background-color: #eaf2f8;
+}
+#project-3 .left-side {
+    background-color: #FFE3F2;
+}
+#project-3 .right-side {
+    background-color: #D14D95;
+}
 
 /* Custom Media Query - Mobile Devices */
 @media only screen and (max-width: 768px) {
-  iframe {
+	
+	iframe {
     width: 100%;
     height: 500px;
-  }
-  .lg-padding {
-    padding: 2rem;
-  }
-  body {
-    overflow-x: hidden;
-  }
-  .project {
-    height: unset;
-  }
-  h1, h2, h3, h4, h5, h6, p, ul {
-    padding: 0.75rem;
-  }
-  .navbar-burger {
-    z-index: 1;
-    padding-right: 100px;
-  }
-  #navbarMenuHeroA {
-    width: 100vw;
-    height: 100vh;
-    top: 0;
-    overflow: hidden;
-    position: fixed;
-  }
+	}
+	
+	.lg-padding {
+		padding: 3rem;
+	}
+	
+    body {
+        overflow-x: hidden;
+    }
+    .project {
+        height: unset;
+    }
+    h1,h2,h3,h4,h5,h6,p,ul {
+        padding: 0.75rem;
+    }
+    .navbar-burger {
+        z-index: 1;
+        padding-right: 100px;
+    }
+    #navbarMenuHeroA {
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        overflow: hidden;
+        position:fixed;
+    }
 }
+
 /*Additional CSS from Google*/
+
 /* CSS Code for Preview Image (Modal) on Kloudy Page */
 #myImg {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
 }
-#myImg:hover {
-  opacity: 0.7;
-}
+
+#myImg:hover {opacity: 0.7;}
+
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
@@ -182,9 +199,10 @@ a.navbar-item:hover, a.navbar-item.is-active:hover, .navbar-burger:hover {
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0, 0, 0); /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
 }
+
 /* Modal Content (Image) */
 .modal-content {
   margin: auto;
@@ -192,6 +210,7 @@ a.navbar-item:hover, a.navbar-item.is-active:hover, .navbar-burger:hover {
   width: 80%;
   max-width: 700px;
 }
+
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
 #caption {
   margin: auto;
@@ -203,18 +222,17 @@ a.navbar-item:hover, a.navbar-item.is-active:hover, .navbar-burger:hover {
   padding: 10px 0;
   height: 150px;
 }
+
 .modal-content, #caption {
   animation-name: zoom;
   animation-duration: 0.6s;
 }
+
 @keyframes zoom {
-  from {
-    transform: scale(0)
-  }
-  to {
-    transform: scale(1)
-  }
+  from {transform:scale(0)}
+  to {transform:scale(1)}
 }
+
 /* The Close Button */
 .close {
   position: absolute;
@@ -225,15 +243,19 @@ a.navbar-item:hover, a.navbar-item.is-active:hover, .navbar-burger:hover {
   font-weight: bold;
   transition: 0.3s;
 }
-.close:hover, .close:focus {
+
+.close:hover,
+.close:focus {
   color: #bbb;
   text-decoration: none;
   cursor: pointer;
 }
+
 /* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 700px){
   .modal-content {
     width: 90%;
   }
 }
+
 /*End of Additonal CSS from Google*/
