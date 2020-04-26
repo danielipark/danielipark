@@ -136,6 +136,10 @@ a.navbar-item:hover, a.navbar-item.is-active:hover, .navbar-burger:hover {
   .lg-padding {
     padding: 1rem;
   }
+	#ghosttype {
+		height:250px;
+	}
+	
   body {
     overflow-x: hidden;
   }
