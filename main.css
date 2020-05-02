@@ -6,7 +6,13 @@ Add this into CSS to change font color
 }
 */
 .title, .subtitle, p {
-  color: black;
+  color: #000000;
+	    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+.region {
+  border-bottom: 10px solid #FFCC22;
+  padding-bottom: 6px;
 }
 /* Custom Helpers */
 .sm-padding {
@@ -104,13 +110,13 @@ a.navbar-item:hover, a.navbar-item.is-active:hover, .navbar-burger:hover {
   background-color: transparent;
 }
 #project-0 .left-side {
-  background-color: #db5d5b;
+  background-color: #FFCC22;
 }
 #project-0 .right-side {
-  background-color: #faeeee;
+  background-color: #FFFDE9;
 }
 #project-1 .left-side {
-  background-color: #CDEEE2;
+  background-color: #F0FFF9;
 }
 #project-1 .right-side {
   background-color: #6ab89b;
@@ -119,10 +125,10 @@ a.navbar-item:hover, a.navbar-item.is-active:hover, .navbar-burger:hover {
   background-color: #5a97c4;
 }
 #project-2 .right-side {
-  background-color: #eaf2f8;
+  background-color: #F3FAFF;
 }
 #project-3 .left-side {
-  background-color: #FFE3F2;
+  background-color: #FFF5FA;
 }
 #project-3 .right-side {
   background-color: #D14D95;
@@ -136,10 +142,9 @@ a.navbar-item:hover, a.navbar-item.is-active:hover, .navbar-burger:hover {
   .lg-padding {
     padding: 1rem;
   }
-	#ghosttype {
-		height:250px;
-	}
-	
+  #ghosttype {
+    height: 250px;
+  }
   body {
     overflow-x: hidden;
   }
