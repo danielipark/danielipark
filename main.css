@@ -5,9 +5,16 @@ Add this into CSS to change font color
     color: rgb(121, 121, 121);
 }
 */
+
+
 .title, .subtitle, p {
   color: #000000;
 	    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+/* Font Customizations */
+.swag {
+	font-weight: 900;
 }
 
 .region {
@@ -116,10 +123,10 @@ a.navbar-item:hover, a.navbar-item.is-active:hover, .navbar-burger:hover {
   background-color: #FFFDE9;
 }
 #project-1 .left-side {
-  background-color: #F0FFF9;
+  background-color: #E8FFEB;
 }
 #project-1 .right-side {
-  background-color: #6ab89b;
+  background-color: #3BD68D;
 }
 #project-2 .left-side {
   background-color: #5a97c4;
