@@ -5,20 +5,25 @@ Add this into CSS to change font color
     color: rgb(121, 121, 121);
 }
 */
-
-
 .title, .subtitle, p {
   color: #000000;
-	    font-family: 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Helvetica', 'Arial', sans-serif;
 }
-
 /* Font Customizations */
-.swag {
-	font-weight: 900;
-}
-
 .region {
   border-bottom: 10px solid #FFCC22;
+  padding-bottom: 6px;
+}
+.kloudy {
+  border-bottom: 10px solid #3BD68D;
+  padding-bottom: 6px;
+}
+.quercus {
+  border-bottom: 10px solid #2F7CE2;
+  padding-bottom: 6px;
+}
+.creativecase {
+  border-bottom: 10px solid #D14D95;
   padding-bottom: 6px;
 }
 /* Custom Helpers */
@@ -129,7 +134,7 @@ a.navbar-item:hover, a.navbar-item.is-active:hover, .navbar-burger:hover {
   background-color: #3BD68D;
 }
 #project-2 .left-side {
-  background-color: #5a97c4;
+  background-color: #2F7CE2;
 }
 #project-2 .right-side {
   background-color: #F3FAFF;
