@@ -9,6 +9,10 @@ Add this into CSS to change font color
   color: #000000;
   font-family: 'Helvetica', 'Arial', sans-serif;
 }
+
+p .subtitle is-5 {
+	color: #767676;
+}
 /* Font Customizations */
 .region {
   border-bottom: 10px solid #FFCC22;
@@ -113,7 +117,7 @@ a.navbar-item:hover, a.navbar-item.is-active:hover, .navbar-burger:hover {
   height: 100%;
 }
 #landing-section .landing-page-description h3 {
-  color: #808080;
+  color: #767676;
 }
 #project-landing-page .left-side {
   background-color: transparent;
@@ -178,7 +182,9 @@ a.navbar-item:hover, a.navbar-item.is-active:hover, .navbar-burger:hover {
     position: fixed;
   }
 }
+
 /*Additional CSS from Google*/
+
 /* CSS Code for Preview Image (Modal) on Kloudy Page */
 #myImg {
   border-radius: 5px;
