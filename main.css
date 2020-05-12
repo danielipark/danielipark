@@ -7,10 +7,7 @@ Add this into CSS to change font color
 */
 .title, .subtitle, p {
   color: #000000;
-  font-family: 'Helvetica', 'Arial', sans-serif;
-}
-p .subtitle is-5 {
-  color: #767676;
+  font-family: 'Roboto', sans-serif;
 }
 /* Font Customizations */
 .region {
@@ -154,7 +151,16 @@ a.navbar-item:hover, a.navbar-item.is-active:hover, .navbar-burger:hover {
     width: 100%;
     height: 500px;
   }
-  .lg-padding {
+  #project-0 .lg-padding {
+    padding: 1rem;
+  }
+  #project-1 .lg-padding {
+    padding: 1rem;
+  }
+  #project-2 .lg-padding {
+    padding: 1rem;
+  }
+  #project-3 .lg-padding {
     padding: 1rem;
   }
   #ghosttype {
@@ -167,10 +173,9 @@ a.navbar-item:hover, a.navbar-item.is-active:hover, .navbar-burger:hover {
     flex-wrap: wrap;
     padding: 3rem 0 0 0
   }
-	
-.hero-head {
-  padding: 2rem 0 0 0;
-}	
+  .hero-head {
+    padding: 2rem 0 0 0;
+  }
   .project {
     height: unset;
   }

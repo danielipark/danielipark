@@ -29,7 +29,7 @@
         <div class="navbar-brand"> <a class="navbar-item" href="index.html"> <img src="logo.png" alt="Logo"> </a> <span class="navbar-burger burger" data-target="navbarMenuHeroA"> <span></span> <span></span> <span></span> </span> </div>
         <!-- [3.1] Menu Items -->
         <div id="navbarMenuHeroA" class="navbar-menu">
-          <div class="navbar-end"> <a class="navbar-item" href="index.html"> work </a> <a class="navbar-item" href="about.html"> about </a> <a href="https://www.linkedin.com/in/daniel-i-park-097007122/" class="navbar-item"> <span class="icon"> <i class="fab fa-linkedin-in fa-lg"></i> </span> </a> <a href="https://dribbble.com/danielparkco" class="navbar-item"> <span class="icon"> <i class="fab fa-dribbble fa-lg"></i> </span> </a> <a href="mailto:ihseukpark@gmail.com" target="_top" class="navbar-item"> <span class="icon"> <i class="far fa-envelope fa-lg"></i> </span> </a></div>
+          <div class="navbar-end"> <a class="navbar-item" href="index.html"> work </a> <a class="navbar-item" href="about.html"> about </a> <a href="https://www.linkedin.com/in/daniel-i-park-097007122/" class="navbar-item"> <span class="icon"> <i class="fab fa-linkedin-in fa-lg"></i> </span> </a> <a href="https://dribbble.com/danielparkco" class="navbar-item"> <span class="icon"> <i class="fab fa-dribbble fa-lg"></i> </span> </a> <a href="mailto:contact@danielpark.co" target="_top" class="navbar-item"> <span class="icon"> <i class="far fa-envelope fa-lg"></i> </span> </a></div>
         </div>
       </div>
     </nav>
@@ -40,9 +40,10 @@
       <!-- [6.1] Project Brief -->
       <header>
         <div class="md-spacing"> 
+          
           <!-- [6.1a] Project Title and Caption-->
           <h1 class="title is-1 has-text-weight-bold"><b class="region">Region of Peel</b></h1>
-          <h2 class="subtitle is-4 md-spacing-top">User Experience / User Interface Design</h2>
+          <h2 class="subtitle is-5 md-spacing-top" style="color: #767676">UX / UI</h2>
           <img class ="full-width md-spacing-top" src="resources/images/region_of_peel/banner.png"> 
           <!-- [6.1b] Project Description -->
           <div class="columns">
@@ -80,19 +81,27 @@
       </header>
       <!-- [6.2] Project Problem -->
       <section class="md-spacing">
-        <h1 class="title is-2 has-text-weight-bold"><b class="region">The Problem</b></h1>
-        <p class="is-size-4 md-spacing-top">The Region of Peel website was inaccessible, disorganized and did not comply with AODA standards (Accessibility to Ontarians with Disabilities Act).</p>
+        <div class="full-width has-background-black-ter lg-padding">
+          <h1 class="title is-2 has-text-weight-bold md-padding" style="color:#FFCC22">
+            <center>
+              The Problem
+            </center>
+          </h1>
+          <p class="subtitle is-5 lg-padding" style="font-weight: bold; color: white">The Region of Peel website was inaccessible, disorganized, and did not comply with AODA standards (Accessibility to Ontarions with Disabilities Act).</p>
+        </div>
       </section>
       <!-- [6.3] Our Users -->
       <section class="md-spacing">
-        <h1 class="title is-2 has-text-weight-bold"><b class="region">Our Users</b></h1>
-        <h2 class="subtitle is-4 md-spacing-top">Designing for a diverse set of users with different needs</h2>
         <div class="columns">
-          <div class="column is one-half is-vertical-align">
-            <p class="subtitle is-5"><a href="https://www150.statcan.gc.ca/n1/pub/89-654-x/89-654-x2018002-eng.htm">In 2017, one in five (22%) of the Canadian population aged 15 years and over had one or more disabilities.</a></p>
-            <p class="subtitle is-5" style="color: #767676">Therefore, the Region of Peel site had to be accessible by individuals who had <strong>auditory, motor, visual, speech, and/or cognitive disabilities</strong>. Citizens must be able to navigate through our site using screen readers, braille keyboards, speech input, screen magnifiers, and hands-free mouse tracking.</p>
+          <div class="column is-three-fifths is-vertical-align">
+            <h1 class="title is-2 has-text-weight-bold"><b class="region">Our Users</b></h1>
+            <h2 class="subtitle is-4 md-spacing-top">Designing for a diverse set of users with different needs</h2>
+            <p class="subtitle is-5" style="color: #767676">In 2017, <a href="https://www150.statcan.gc.ca/n1/pub/89-654-x/89-654-x2018002-eng.htm">one in five (22%)</a> of the Canadian population aged 15 years and over had one or more disabilities.</p>
+            <p class="subtitle is-5" style="color: #767676">Therefore, the Region of Peel site had to be accessible by individuals who had auditory, motor, visual, speech, and/or cognitive disabilities. Citizens must be able to navigate through our site using screen readers, braille keyboards, speech input, screen magnifiers, and hands-free mouse tracking.</p>
           </div>
-          <div class="column is one-half has-text-centered md-spacing"> <img src="resources/images/region_of_peel/disabilities.png" style="max-height: 100%; max-width: 100%"> </div>
+          <div class="column is-two-fifths has-text-centered"> <img src="resources/images/region_of_peel/22percent.png" style="max-height: 100%; max-width: 100%">
+            <p class="subtitle is-6" style="color: #767676">One in five (22%) of the Canadian population had one or more disabilities.</p>
+          </div>
         </div>
       </section>
       <!-- [6.4] Previous Interface -->
@@ -102,20 +111,20 @@
         <div class="column has-text-centered md-spacing"> <img src="resources/images/region_of_peel/previous_interface.png" style="max-height: 100%; max-width: 100%"> </div>
         <div class="columns">
           <div class="column is-three-fifths">
-            <p class="subtitle is-4" ><strong><b class="region">1</b>. Colour Contrast</strong></p>
+            <p class="subtitle is-4" ><strong><b class="region">1</b>. Weak Colour Contrast</strong></p>
             <p class="subtitle is-5" style="color: #767676">Strong colour contrast is crucial for readability. Without WCAG approved contrast, people with colour blindness or impaired vision cannot view information properly. In the example shown above, citizens with colour blindness would not be able to read the Public Health  phone number. The light green background does not provide enough contrast for the white text.</p>
-            <p class="subtitle is-4 md-spacing-top" ><strong><b class="region">2</b>. Alternate Text for Images</strong></p>
-            <p class="subtitle is-5" style="color: #767676">Blind citizens use screen readers to <em>hear</em> the information on a webpage. Therefore, it is important for all images to have a useful paired alt tag. The alt tag should describe the image and its context. However, if the <strong>image is strictly for decorative purposes, the alt tag is best left empty</strong>. Without an alt tag, the screen reader will read out the useless file name of the image to the user.</p>
-            <p class="subtitle is-4 md-spacing-top"><strong><b class="region">3</b>. Navigation Menus</strong></p>
-            <p class="subtitle is-5" style="color: #767676">On this page alone, there are three navigation menus. This can present the problem of information overload. Each menu has numerous pages and an overwhelming number of links. It is physically and mentally taxing for blind citizens using their keyboard (instead of a mouse) to go through all the options to find their desired page. <br>
+            <p class="subtitle is-4 md-spacing-top" ><strong><b class="region">2</b>. Missing Alt Text for Images</strong></p>
+            <p class="subtitle is-5" style="color: #767676">Visually impaired citizens use screen readers to <em>hear</em> the information on a webpage. Therefore, it is important for all images to have a useful paired alt tag. The alt tag should describe the image and its context. However, if the <strong>image is strictly for decorative purposes, the alt tag is best left empty</strong>. Without an alt tag, the screen reader will read out the useless file name of the image to the user.</p>
+            <p class="subtitle is-4 md-spacing-top"><strong><b class="region">3</b>. Numerous Navigation Menus</strong></p>
+            <p class="subtitle is-5" style="color: #767676">On this page alone, there are three navigation menus. This can present the problem of information overload. Each menu has numerous pages and an overwhelming number of links. It is physically and mentally taxing for visually impaired citizens using their keyboard (instead of a mouse) to go through all the options to find their desired page. <br>
               <br>
               Being wary of the number and size of your navigation menus will result in a more pleasant experience for users. </p>
-            <p class="subtitle is-4 md-spacing-top"><strong><b class="region">4</b>. Information Architecture</strong></p>
+            <p class="subtitle is-4 md-spacing-top"><strong><b class="region">4</b>. Confusing Information Architecture</strong></p>
             <p class="subtitle is-5" style="color: #767676">In the example shown above, the content is disorganized. The titles, subtitles, and body text are not clear. To help citizens see the hierarchy of a page, it is vital to follow the H1, H2, H3, p, etc. protocol to organize information. <br>
               <br>
               Also, the images in the body text switch side to side. For easy readability, content should always go left-to-right and up-down. </p>
-            <p class="subtitle is-4 md-spacing-top"><strong><b class="region">5</b>. Responsiveness</strong></p>
-            <p class="subtitle is-5" style="color: #767676">This webpage is not responsiveness. Webpages and information must be able to respond to different screen sizes. Citizens viewing this webpage on their phone will have difficulty finding information, as the site is only optimized for desktops.</p>
+            <p class="subtitle is-4 md-spacing-top"><strong><b class="region">5</b>. Unresponsive</strong></p>
+            <p class="subtitle is-5" style="color: #767676">This webpage is not responsive. Webpages and information must be able to respond to different screen sizes. Citizens viewing this webpage on their phone will have difficulty finding information, as the site is only optimized for desktops.</p>
           </div>
           <div class="column is-two-fifths is-vertical-align"><img src="resources/images/region_of_peel/blind_citizen.png" style="max-height: 100%; max-width: 100%"> </div>
         </div>
@@ -124,32 +133,40 @@
       <section class="md-spacing">
         <h1 class="title is-2 has-text-weight-bold"><b class="region">Updated Interface</b></h1>
         <h2 class="subtitle is-4 md-spacing-top">Resolved accessibility issues with updated interface</h2>
-        <div class="column has-text-centered md-spacing"> <img src="resources/images/region_of_peel/updated_interface1.png" style="max-height: 100%; max-width: 100%"> </div>
+        <div class="column has-text-centered sm-spacing"> <img src="resources/images/region_of_peel/updated_interface1.png" style="max-height: 100%; max-width: 100%"> </div>
         <div class="columns">
-          <div class="column is-three-fifths">
-            <p class="subtitle is-4" ><strong><b class="region">1</b>. Colour Contrast</strong></p>
+          <div class="column is-8 is-offset-2">
+            <p class="subtitle is-4" ><strong><b class="region">1</b>. Strong Colour Contrast</strong></p>
             <p class="subtitle is-5" style="color: #767676">Strong colour contrast is crucial for readability. Without WCAG approved contrast, people with colour blindness or impaired vision cannot view information properly. In the example shown above, citizens with colour blindness would not be able to read the Public Health  phone number. The light green background does not provide enough contrast for the white text.</p>
-            <p class="subtitle is-4 md-spacing-top" ><strong><b class="region">2</b>. Alternate Text for Images</strong></p>
-            <p class="subtitle is-5" style="color: #767676">Blind citizens use screen readers to <em>hear</em> the information on a webpage. Therefore, it is important for all images to have a useful paired alt tag. The alt tag should describe the image and its context. However, if the <strong>image is strictly for decorative purposes, the alt tag is best left empty</strong>. Without an alt tag, the screen reader will read out the useless file name of the image to the user.</p>
-            <p class="subtitle is-4 md-spacing-top"><strong><b class="region">3</b>. Navigation Menus</strong></p>
-            <p class="subtitle is-5" style="color: #767676">On this page alone, there are three navigation menus. This can present the problem of information overload. Each menu has numerous pages and an overwhelming number of links. It is physically and mentally taxing for blind citizens using their keyboard (instead of a mouse) to go through all the options to find their desired page.</p>
           </div>
-          <div class="column is-two-fifths is-vertical-align"><img src="resources/images/region_of_peel/paralyzed_citizen.png" style="max-height: 90%; max-width: 90%"> </div>
         </div>
-        <div class="column has-text-centered md-spacing"> <img src="resources/images/region_of_peel/updated_interface2.png" style="max-height: 100%; max-width: 100%"> </div>
+        <div class="column has-text-centered sm-spacing"> <img src="resources/images/region_of_peel/updated_interface2.png" style="max-height: 100%; max-width: 100%"> </div>
         <div class="columns">
-          <div class="column is-half is-vertical-align">
-            <p class="subtitle is-4 md-spacing-top"><strong><b class="region">4</b>. Information Architecture</strong></p>
-            <p class="subtitle is-5" style="color: #767676">In the example shown above, the content is disorganized. The titles, subtitles, and body text are not clear. To help citizens see the hierarchy of a page, it is vital to follow the H1, H2, H3, p, etc. protocol to organize information. <br>
-              <br>
-              Also, the images in the body text switch side to side. For easy readability, content should always go left-to-right and up-down. </p>
-			   <p class="subtitle is-4 md-spacing-top"><strong><b class="region">5</b>. Responsiveness</strong></p>
-            <p class="subtitle is-5" style="color: #767676">This webpage is not responsiveness. Webpages and information must be able to respond to different screen sizes. Citizens viewing this webpage on their phone will have difficulty finding information, as the site is only optimized for desktops.</p>
+          <div class="column is-8 is-offset-2">
+            <p class="subtitle is-4" ><strong><b class="region">2</b>. Useful Alt Text</strong></p>
+            <p class="subtitle is-5" style="color: #767676">Strong colour contrast is crucial for readability. Without WCAG approved contrast, people with colour blindness or impaired vision cannot view information properly. In the example shown above, citizens with colour blindness would not be able to read the Public Health  phone number. The light green background does not provide enough contrast for the white text.</p>
           </div>
-			<div class="column is-half">
-			        <div class="column has-text-centered md-spacing"> <img src="resources/images/region_of_peel/updated_interface3.png" style="max-height: 100%; max-width: 100%"> </div>
-
-			</div>
+        </div>
+        <div class="column has-text-centered sm-spacing"> <img src="resources/images/region_of_peel/updated_interface3.png" style="max-height: 100%; max-width: 100%"> </div>
+        <div class="columns">
+          <div class="column is-8 is-offset-2">
+            <p class="subtitle is-4" ><strong><b class="region">3</b>. Main and Sub Navigation Menus</strong></p>
+            <p class="subtitle is-5" style="color: #767676">Strong colour contrast is crucial for readability. Without WCAG approved contrast, people with colour blindness or impaired vision cannot view information properly. In the example shown above, citizens with colour blindness would not be able to read the Public Health  phone number. The light green background does not provide enough contrast for the white text.</p>
+          </div>
+        </div>
+        <div class="column has-text-centered sm-spacing"> <img src="resources/images/region_of_peel/updated_interface4.png" style="max-height: 100%; max-width: 100%"> </div>
+        <div class="columns">
+          <div class="column is-8 is-offset-2">
+            <p class="subtitle is-4" ><strong><b class="region">4</b>. Clear Hiearchy of Information</strong></p>
+            <p class="subtitle is-5" style="color: #767676">Strong colour contrast is crucial for readability. Without WCAG approved contrast, people with colour blindness or impaired vision cannot view information properly. In the example shown above, citizens with colour blindness would not be able to read the Public Health  phone number. The light green background does not provide enough contrast for the white text.</p>
+          </div>
+        </div>
+        <div class="column has-text-centered md-spacing"> <img src="resources/images/region_of_peel/updated_interface5.png" style="max-height: 100%; max-width: 100%"> </div>
+        <div class="columns">
+          <div class="column is-8 is-offset-2">
+            <p class="subtitle is-4" ><strong><b class="region">5</b>. Optimized Responsiveness</strong></p>
+            <p class="subtitle is-5" style="color: #767676">Strong colour contrast is crucial for readability. Without WCAG approved contrast, people with colour blindness or impaired vision cannot view information properly. In the example shown above, citizens with colour blindness would not be able to read the Public Health  phone number. The light green background does not provide enough contrast for the white text.</p>
+          </div>
         </div>
       </section>
       <!-- [6.5] My Role -->
@@ -191,6 +208,11 @@
         </nav>
       </div>
     </div>
+  </div>
+</div>
+<div class="hero-footer">
+  <div class="container has-text-centered sm-spacing">
+	  <h1 class="subtitle is-6"><a href="mailto:contact@danielpark.co">Contact Me</a>  &#128075;</h1>
   </div>
 </div>
 <!-- [8] Scripts --> 
