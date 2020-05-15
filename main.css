@@ -151,6 +151,9 @@ a.navbar-item:hover, a.navbar-item.is-active:hover, .navbar-burger:hover {
     width: 100%;
     height: 500px;
   }
+  #landing-page .lg-padding {
+    padding: 1rem;
+  }
   #project-0 .lg-padding {
     padding: 1rem;
   }
@@ -162,6 +165,9 @@ a.navbar-item:hover, a.navbar-item.is-active:hover, .navbar-burger:hover {
   }
   #project-3 .lg-padding {
     padding: 1rem;
+  }
+  #problem .lg-padding {
+    padding: 2rem;
   }
   #ghosttype {
     height: 250px;
