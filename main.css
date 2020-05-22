@@ -185,6 +185,9 @@ a.navbar-item:hover, a.navbar-item.is-active:hover, .navbar-burger:hover {
   .project {
     height: unset;
   }
+	b {
+		line-height: 175%;
+	}	
   h1, h2, h3, h4, h5, h6, p, ul {
     padding: 0.75rem;
   }
