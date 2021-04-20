@@ -5,27 +5,14 @@ Add this into CSS to change font color
     color: rgb(121, 121, 121);
 }
 */
-.title, .subtitle, p {
-  color: #000000;
-  font-family: 'Roboto', sans-serif;
+@font-face {
+  font-family: 'hk_groteskregular';
+  src: url('hkgrotesk-regular-webfont.woff2') format('woff2'),
+       url('hkgrotesk-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
-/* Font Customizations */
-.region {
-  border-bottom: 10px solid #FFCC22;
-  padding-bottom: 6px;
-}
-.kloudy {
-  border-bottom: 10px solid #3BD68D;
-  padding-bottom: 6px;
-}
-.quercus {
-  border-bottom: 10px solid #2F7CE2;
-  padding-bottom: 6px;
-}
-.creativecase {
-  border-bottom: 10px solid #D14D95;
-  padding-bottom: 6px;
-}
+
 /* Custom Helpers */
 .sm-padding {
   padding: 1rem;
@@ -68,13 +55,20 @@ Add this into CSS to change font color
   justify-content: center;
   flex-direction: column;
 }
+
 /* Bulma Overrides */
 .hero-head {
+  height: 300px;
   padding: 3rem 3rem 0 3rem;
 }
 .hero-body {
   flex-wrap: wrap;
+  height: 500px;
   padding: 3rem 5rem 0 5rem;
+}
+.projects {
+  flex-wrap: wrap;
+  padding: 0rem 5rem 5rem 5rem;
 }
 .flex-wrap {
   flex: 0 0 100%;
@@ -95,6 +89,11 @@ iframe {
 .container {
   max-width: 1400px;
 }
+.card{
+  border-radius: 0.75rem;
+  padding:0rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
 /* Links */
 a.navbar-item:hover, a.navbar-item.is-active:hover, .navbar-burger:hover {
   background-color: unset;
@@ -105,46 +104,7 @@ a.navbar-item:hover, a.navbar-item.is-active:hover, .navbar-burger:hover {
   padding-top: 0rem;
   padding-bottom: 0rem;
 }
-/* [4.2] Projects */
-.project {
-  height: 640px;
-}
-.columns {
-  height: 100%;
-}
-#landing-section .landing-page-description h3 {
-  color: #767676;
-}
-#project-landing-page .left-side {
-  background-color: transparent;
-}
-#project-landing-page .right-side {
-  background-color: transparent;
-}
-#project-0 .left-side {
-  background-color: #FFCC22;
-}
-#project-0 .right-side {
-  background-color: #FFFDE9;
-}
-#project-1 .left-side {
-  background-color: #E8FFEB;
-}
-#project-1 .right-side {
-  background-color: #3BD68D;
-}
-#project-2 .left-side {
-  background-color: #2F7CE2;
-}
-#project-2 .right-side {
-  background-color: #F3FAFF;
-}
-#project-3 .left-side {
-  background-color: #FFF5FA;
-}
-#project-3 .right-side {
-  background-color: #D14D95;
-}
+
 /* Custom Media Query - Mobile Devices */
 @media only screen and (max-width: 768px) {
   iframe {
@@ -154,18 +114,7 @@ a.navbar-item:hover, a.navbar-item.is-active:hover, .navbar-burger:hover {
   #landing-page .lg-padding {
     padding: 1rem;
   }
-  #project-0 .lg-padding {
-    padding: 1rem;
-  }
-  #project-1 .lg-padding {
-    padding: 1rem;
-  }
-  #project-2 .lg-padding {
-    padding: 1rem;
-  }
-  #project-3 .lg-padding {
-    padding: 1rem;
-  }
+
   #problem .lg-padding {
     padding: 2rem;
   }
@@ -175,15 +124,17 @@ a.navbar-item:hover, a.navbar-item.is-active:hover, .navbar-burger:hover {
   body {
     overflow-x: hidden;
   }
+  .hero-head {
+    padding: 3rem 0 0 0;
+    height: 150px;
+  }
   .hero-body {
     flex-wrap: wrap;
-    padding: 3rem 0 0 0
+    padding: 3rem 0 0 0;
   }
-  .hero-head {
-    padding: 2rem 0 0 0;
-  }
-  .project {
-    height: unset;
+  .projects {
+    flex-wrap: wrap;
+    padding: 3rem 0 0 0;
   }
 	b {
 		line-height: 175%;
