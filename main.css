@@ -91,7 +91,6 @@ iframe {
 }
 .card{
   border-radius: 0.75rem;
-  padding:0rem;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
 }
 
@@ -115,7 +114,6 @@ a.navbar-item:hover, a.navbar-item.is-active:hover, .navbar-burger:hover {
   #landing-page .lg-padding {
     padding: 1rem;
   }
-
   #problem .lg-padding {
     padding: 2rem;
   }
@@ -127,12 +125,10 @@ a.navbar-item:hover, a.navbar-item.is-active:hover, .navbar-burger:hover {
   }
   .hero-head {
     padding: 3rem 0 0 0;
-    height: 150px;
   }
   .hero-body {
     flex-wrap: wrap;
     padding: 3rem 0 0 0;
-    height: 600px;
   }
   .projects {
     flex-wrap: wrap;
