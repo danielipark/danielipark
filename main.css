@@ -13,6 +13,24 @@ Add this into CSS to change font color
   font-style: normal;
 }
 
+/* introduction font customization*/
+.name {
+  font-size: 50px;
+  font-weight: 600;
+  color: black;
+}
+
+.current-position {
+  font-size: 15px;
+  font-weight: 400;
+  color: black;
+}
+
+.description {
+  font-size: 50px;
+  font-weight: 400;
+}
+
 /* Custom Helpers */
 .sm-padding {
   padding: 1rem;
@@ -57,18 +75,19 @@ Add this into CSS to change font color
 }
 
 /* Bulma Overrides */
-.hero-head {
-  height: 300px;
-  padding: 3rem 3rem 0 3rem;
+.navbar {
+  padding: 3rem 10rem 0 10rem;
 }
-.hero-body {
-  flex-wrap: wrap;
-  height: 500px;
-  padding: 3rem 5rem 0 5rem;
+.introduction {
+  padding: 10rem 15rem 7rem 15rem;
 }
 .projects {
   flex-wrap: wrap;
   padding: 0rem 5rem 5rem 5rem;
+}
+.card{
+  border-radius: 0.75rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
 }
 .flex-wrap {
   flex: 0 0 100%;
@@ -89,60 +108,18 @@ iframe {
 .container {
   max-width: 1400px;
 }
-.card{
-  border-radius: 0.75rem;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
-}
 
 /* Links */
 a.navbar-item:hover, a.navbar-item.is-active:hover, .navbar-burger:hover {
   background-color: unset;
   color: #3273dc;
 }
-/* [4.1] Landing Section */
-#landing-section {
-  padding-top: 0rem;
-  padding-bottom: 0rem;
-}
 
 /* Custom Media Query - Mobile Devices */
 @media only screen and (max-width: 768px) {
-  iframe {
-    width: 100%;
-    height: 500px;
-  }
-  #landing-page .lg-padding {
-    padding: 1rem;
-  }
-  #problem .lg-padding {
-    padding: 2rem;
-  }
-  #ghosttype {
-    height: 250px;
-  }
-  body {
-    overflow-x: hidden;
-  }
-  .hero-head {
-    padding: 3rem 0 0 0;
-  }
-  .hero-body {
-    flex-wrap: wrap;
-    padding: 3rem 0 0 0;
-  }
-  .projects {
-    flex-wrap: wrap;
-    padding: 3rem 0 0 0;
-  }
-	b {
-		line-height: 175%;
-	}	
-  h1, h2, h3, h4, h5, h6, p, ul {
-    padding: 0.75rem;
-  }
   .navbar-burger {
     z-index: 1;
-    padding-right: 100px;
+    padding-right: 75px;
   }
   #navbarMenuHeroA {
     width: 100vw;
@@ -150,6 +127,44 @@ a.navbar-item:hover, a.navbar-item.is-active:hover, .navbar-burger:hover {
     top: 0;
     overflow: hidden;
     position: fixed;
+  }
+  .navbar {
+    padding: 2rem 0 0 0;
+  }
+  .introduction {
+    padding: 5rem 1rem 3rem 1rem;
+  }
+  /* introduction font customization*/
+  .name {
+  font-size: 60px;
+  font-weight: 600;
+  color: black;
+}
+.current-position {
+  font-size: 15px;
+  font-weight: 400;
+  color: black;
+}
+.description {
+  font-size: 30px;
+  font-weight: 400;
+}
+  .projects {
+    flex-wrap: wrap;
+    padding: 0 1rem 0 1rem;
+  }
+  iframe {
+    width: 100%;
+    height: 500px;
+  }
+  #ghosttype {
+    height: 250px;
+  }
+	b {
+		line-height: 175%;
+	}	
+  h1, h2, h3, h4, h5, h6, p, ul {
+    padding: 0.75rem;
   }
 }
 /*Additional CSS from Google*/
