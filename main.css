@@ -15,20 +15,15 @@ Add this into CSS to change font color
 
 /* introduction font customization*/
 .name {
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 600;
   color: black;
 }
 
-.current-position {
-  font-size: 20px;
-  font-weight: 400;
-  color: black;
-}
-
 .description {
-  font-size: 40px;
-  font-weight: 400;
+  font-size: 50px;
+  font-weight: 300;
+  color:black;
 }
 
 /* Custom Helpers */
@@ -79,7 +74,7 @@ Add this into CSS to change font color
   padding: 3rem 10rem 0 10rem;
 }
 .introduction {
-  padding: 10rem 15rem 7rem 15rem;
+  padding: 10rem 15rem 8rem 15rem;
 }
 .projects {
   flex-wrap: wrap;
@@ -132,22 +127,22 @@ a.navbar-item:hover, a.navbar-item.is-active:hover, .navbar-burger:hover {
     padding: 2rem 0 0 0;
   }
   .introduction {
-    padding: 5rem 1rem 3rem 1rem;
+    padding: 5rem 1rem 2rem 1rem;
+  }
+  .downArrow{
+    position: center;
+    padding-top: 0rem;
   }
   /* introduction font customization*/
   .name {
-  font-size: 60px;
+  font-size: 30px;
   font-weight: 600;
-  color: black;
-}
-.current-position {
-  font-size: 15px;
-  font-weight: 400;
   color: black;
 }
 .description {
   font-size: 30px;
-  font-weight: 400;
+  font-weight: 300;
+  color: black;
 }
   .projects {
     flex-wrap: wrap;
@@ -243,3 +238,62 @@ a.navbar-item:hover, a.navbar-item.is-active:hover, .navbar-burger:hover {
   }
 }
 /*End of Additonal CSS from Google*/
+
+
+.downArrow{
+	position: center;
+  padding-top: 2rem;
+}
+.bounce {
+	-moz-animation: bounce 4s infinite;
+	-webkit-animation: bounce 4s infinite;
+	animation: bounce 4s infinite;
+}
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
