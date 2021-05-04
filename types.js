@@ -1,5 +1,5 @@
 var typed = new Typed(".ghosttype", {
-  strings: ["Perfecting my jumpshot.^250", "Making travel videos.^250", "Singing my heart out in the shower.^250", "Playing endless board games...specifically Avalon.^250", "Meal prepping chicken breast and broccoli...sigh."],
+  strings: ["I only cried twice during the pandemic.^250", "you can find me absolutely crushing it in my church basketball league.^250", "I enjoy playing Avalon for hours.^250", "I can eat shawarma once a week...okay maybe three times.^250", "I enjoy singing songs by Akon."],
   typeSpeed: 50,
   startDelay: 2500,
   showCursor: false,
