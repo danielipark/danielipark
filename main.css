@@ -37,6 +37,16 @@ Add this into CSS to change font color
 .ghosttype {
   height: 7rem;
 }
+.interests-heading{
+  font-size: 25px;
+  font-weight: 300;
+  color:black;
+  padding: 1rem 3rem 2rem 3rem;
+}
+.interests-description{
+  padding: 0 3rem 0 3rem;
+}
+
 
 
 /* Custom Helpers */
@@ -84,7 +94,7 @@ Add this into CSS to change font color
 
 /* Bulma Overrides */
 .navbar {
-  padding: 3rem 10rem 0 10rem;
+  padding: 3rem 10rem 0rem 10rem;
 }
 .introduction {
   padding: 10rem 15rem 8rem 15rem;
@@ -96,15 +106,25 @@ Add this into CSS to change font color
 .project-overview {
   padding: 10rem 20rem 5rem 20rem;
 }
+.about-overview {
+  padding: 10rem 20rem 5rem 20rem;
+}
 .project-body {
   padding: 0rem 20rem 5rem 20rem;
 }
 .covid-19-answers {
   padding: 0rem 5rem 5rem 5rem;
 }
+.interests {
+  padding: 0rem 7rem 5rem 7rem;
+}
 .card{
   border-radius: 0.75rem;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+.card img{
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
 }
 .flex-wrap {
   flex: 0 0 100%;
@@ -146,7 +166,7 @@ a.navbar-item:hover, a.navbar-item.is-active:hover, .navbar-burger:hover {
     position: fixed;
   }
   .navbar {
-    padding: 2rem 0 0 0;
+    padding: 1rem 0 1rem 0;
   }
   .introduction {
     padding: 5rem 1rem 2rem 1rem;
@@ -159,6 +179,14 @@ a.navbar-item:hover, a.navbar-item.is-active:hover, .navbar-burger:hover {
     flex-wrap: wrap;
     padding: 0 1.5rem 0 1.5rem;
   }
+  .about-overview {
+    padding: 0 1.5rem 0 1.5rem;
+  }
+  .interests {
+    flex-wrap: wrap;
+    padding: 0 2rem 0 2rem;
+  }
+  
   iframe {
     width: 100%;
     height: 500px;
