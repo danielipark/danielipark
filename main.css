@@ -26,16 +26,29 @@ Add this into CSS to change font color
   font-weight: 300;
   color:black;
 }
-
-.project-heading {
+.project-name {
   font-size: 50px;
   font-weight: 600;
   color: black;
 }
-.project-sub-head {
+.project-description {
   font-size: 25px;
   font-weight: 300;
   color:black;
+}
+.project-heading {
+  font-size: 40px;
+  font-weight: 600;
+  color: black;
+}
+.project-subheading {
+  font-size: 20px;
+  font-weight: 300;
+  color:black;
+}
+.step {
+  font-weight: 600;
+  color: #3273dc;
 }
 .question{
   font-weight: 600;
@@ -114,6 +127,9 @@ Add this into CSS to change font color
 }
 .project-body {
   padding: 0rem 20rem 6rem 20rem;
+}
+.project-image {
+  padding: 0rem 10rem 5rem 10rem;
 }
 .collage {
   padding: 0rem 5rem 5rem 5rem;
@@ -210,6 +226,9 @@ a.navbar-item:hover, a.navbar-item.is-active:hover, .navbar-burger:hover {
   .project-body {
     padding: 0rem 1rem 5rem 1rem;
   }
+  .project-image {
+    padding: 0rem 1rem 5rem 1rem;
+  }
   .downArrow{
     position: center;
     padding-top: 0rem;
@@ -224,6 +243,26 @@ a.navbar-item:hover, a.navbar-item.is-active:hover, .navbar-burger:hover {
   font-size: 28px;
   font-weight: 300;
   color: black;
+}
+.project-name {
+  font-size: 50px;
+  font-weight: 600;
+  color: black;
+}
+.project-description {
+  font-size: 25px;
+  font-weight: 300;
+  color:black;
+}
+.project-heading {
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+}
+.project-subheading {
+  font-size: 10px;
+  font-weight: 300;
+  color:black;
 }
 .ghosttype {
   height: 10rem;
