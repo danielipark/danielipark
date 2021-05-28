@@ -31,22 +31,24 @@ Add this into CSS to change font color
   font-weight: 600;
   color: black;
 }
-.project-description {
+.project-subheading {
   font-size: 25px;
   font-weight: 300;
   color:black;
 }
-.project-heading {
-  font-size: 40px;
-  font-weight: 600;
-  color: black;
-}
-.project-subheading {
-  font-size: 20px;
-  font-weight: 300;
+.project-step {
+  font-size: 25px;
+  font-weight: 400;
   color:black;
 }
-.step {
+.quote {
+  font-size: 20px;
+  font-weight: 200;
+  font-style:italic;
+  color:black;
+  padding-top: 4rem;
+}
+.highlight {
   font-weight: 600;
   color: #3273dc;
 }
@@ -55,6 +57,9 @@ Add this into CSS to change font color
 }
 .ghosttype {
   height: 7rem;
+}
+.ghosttype-audi {
+  height: 10rem;
 }
 .interests-heading{
   font-size: 25px;
@@ -65,7 +70,6 @@ Add this into CSS to change font color
 .interests-description{
   padding: 0 2rem 0 2rem;
 }
-
 
 
 /* Custom Helpers */
@@ -148,6 +152,15 @@ Add this into CSS to change font color
   border-top-left-radius: 0.75rem;
   border-top-right-radius: 0.75rem;
 }
+.audi .card{
+  border-radius: 0rem;
+  box-shadow: none;
+  background-color: #F8F8F8;
+  font-size: 12px;
+}
+.audi .card img{
+  border-radius: 0rem;
+}
 .collage-audi img{
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.1) 0px 18px 36px -18px;
 }
@@ -212,7 +225,6 @@ a.navbar-item:hover, a.navbar-item.is-active:hover, .navbar-burger:hover {
     flex-wrap: wrap;
     padding: 0 2rem 0 2rem;
   }
-  
   iframe {
     width: 100%;
     height: 500px;
@@ -230,7 +242,7 @@ a.navbar-item:hover, a.navbar-item.is-active:hover, .navbar-burger:hover {
     position: center;
     padding-top: 0rem;
   }
-  /* introduction font customization*/
+  /* introduction mobile font customization*/
   .name {
   font-size: 28px;
   font-weight: 600;
@@ -246,18 +258,13 @@ a.navbar-item:hover, a.navbar-item.is-active:hover, .navbar-burger:hover {
   font-weight: 600;
   color: black;
 }
-.project-description {
+.project-subheading {
   font-size: 25px;
   font-weight: 300;
-  color:black;
-}
-.project-heading {
-  font-size: 20px;
-  font-weight: 600;
   color: black;
 }
-.project-subheading {
-  font-size: 10px;
+.project-step {
+  font-size: 25px;
   font-weight: 300;
   color:black;
 }
@@ -268,87 +275,14 @@ a.navbar-item:hover, a.navbar-item.is-active:hover, .navbar-burger:hover {
 .ghosttype {
   height: 10rem;
 }
+.ghosttype-audi {
+  height: 10rem;
+}
   h1, h2, h3, h4, h5, h6, p, ul {
     padding: 0.75rem;
   }
 }
-/*Additional CSS from Google*/
-/* CSS Code for Preview Image (Modal) on Kloudy Page */
-#myImg {
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-#myImg:hover {
-  opacity: 0.7;
-}
-/* The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0, 0, 0); /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
-}
-/* Modal Content (Image) */
-.modal-content {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-}
-/* Caption of Modal Image (Image Text) - Same Width as the Image */
-#caption {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-  text-align: center;
-  color: #ccc;
-  padding: 10px 0;
-  height: 150px;
-}
-.modal-content, #caption {
-  animation-name: zoom;
-  animation-duration: 0.6s;
-}
-@keyframes zoom {
-  from {
-    transform: scale(0)
-  }
-  to {
-    transform: scale(1)
-  }
-}
-/* The Close Button */
-.close {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #f1f1f1;
-  font-size: 40px;
-  font-weight: bold;
-  transition: 0.3s;
-}
-.close:hover, .close:focus {
-  color: #bbb;
-  text-decoration: none;
-  cursor: pointer;
-}
-/* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px) {
-  .modal-content {
-    width: 90%;
-  }
-}
-/*End of Additonal CSS from Google*/
-
+/*Down Arrow Animation*/
 
 .downArrow{
 	position: center;
