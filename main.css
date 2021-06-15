@@ -58,6 +58,10 @@ Add this into CSS to change font color
 .ghosttype-audi {
   height: 10rem;
 }
+.date {
+font-size: 14px;
+font-style: italic;
+}
 .interests-heading{
   font-size: 25px;
   font-weight: 300;
