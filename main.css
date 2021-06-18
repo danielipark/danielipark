@@ -36,11 +36,6 @@ Add this into CSS to change font color
   font-weight: 300;
   color:black;
 }
-.project-step {
-  font-size: 25px;
-  font-weight: 400;
-  color:black;
-}
 .quote {
   font-size: 20px;
   font-weight: 200;
@@ -263,11 +258,6 @@ a.navbar-item:hover, a.navbar-item.is-active:hover, .navbar-burger:hover {
   font-size: 25px;
   font-weight: 300;
   color: black;
-}
-.project-step {
-  font-size: 25px;
-  font-weight: 300;
-  color:black;
 }
 .card p{
   padding-top: 0.5rem;
