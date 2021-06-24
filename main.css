@@ -43,6 +43,9 @@ Add this into CSS to change font color
   color:black;
   padding-top: 4rem;
 }
+.user-quote {
+  font-style: italic;
+}
 .highlight {
   font-weight: 600;
   color: #3273dc;
@@ -148,13 +151,13 @@ font-style: italic;
   border-top-left-radius: 0.75rem;
   border-top-right-radius: 0.75rem;
 }
-.audi .card{
+.case-study .card{
   border-radius: 0rem;
   box-shadow: none;
   background-color: #F8F8F8;
   font-size: 12px;
 }
-.audi .card img{
+.case-study .card img{
   border-radius: 0rem;
 }
 .collage-case-study img{
