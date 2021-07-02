@@ -16,6 +16,12 @@ Add this into CSS to change font color
 }
 
 /* introduction font customization*/
+p{
+  font-size: 18px;
+}
+.caption{
+  font-size: 14px;
+}
 .name {
   font-size: 50px;
   font-weight: 600;
@@ -31,9 +37,14 @@ Add this into CSS to change font color
   font-weight: 600;
   color: black;
 }
-.project-subheading {
-  font-size: 25px;
+.project-description {
+  font-size: 30px;
   font-weight: 300;
+  color:black;
+}
+.project-subheading {
+  font-size: 30px;
+  font-weight: 400;
   color:black;
 }
 .quote {
@@ -51,7 +62,7 @@ Add this into CSS to change font color
   color: #3273dc;
 }
 .ghosttype {
-  height: 7rem;
+  height: 10rem;
 }
 .ghosttype-audi {
   height: 10rem;
@@ -255,6 +266,11 @@ a.navbar-item:hover, a.navbar-item.is-active:hover, .navbar-burger:hover {
 .project-name {
   font-size: 50px;
   font-weight: 600;
+  color: black;
+}
+.project-description {
+  font-size: 25px;
+  font-weight: 300;
   color: black;
 }
 .project-subheading {
