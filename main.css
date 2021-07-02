@@ -47,6 +47,11 @@ p{
   font-weight: 400;
   color:black;
 }
+.next-case-study {
+  font-size: 30px;
+  font-weight: 400;
+  color:#3273dc;
+}
 .quote {
   font-size: 20px;
   font-weight: 200;
@@ -277,6 +282,11 @@ a.navbar-item:hover, a.navbar-item.is-active:hover, .navbar-burger:hover {
   font-size: 25px;
   font-weight: 300;
   color: black;
+}
+.next-case-study {
+  font-size: 25px;
+  font-weight: 300;
+  color: #3273dc;
 }
 .card p{
   padding-top: 0.5rem;
