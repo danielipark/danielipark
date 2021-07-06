@@ -284,8 +284,8 @@ a.navbar-item:hover, a.navbar-item.is-active:hover, .navbar-burger:hover {
   color: black;
 }
 .next-case-study {
-  font-size: 25px;
-  font-weight: 300;
+  font-size: 18px;
+  font-weight: 600;
   color: #3273dc;
 }
 .card p{
